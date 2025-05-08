@@ -62,7 +62,7 @@ const blogPosts = [
     excerpt: "In response to aggression, Pakistan takes down an Indian army base.",
     slug: "pakistan-destroys-indian-army-base",
     date: "May 7, 2025",
-    image: "/indian broken headquarter.png",
+    image: "/india broken headquarter.png",
   },
   {
     id: 17,
@@ -92,6 +92,12 @@ const Blog: React.FC<BlogProps> = ({
   content,
   photo,
 }) => {
+  const pathname = usePathname();
+  const currentSlug = pathname.split("/").pop(); // Extract the slug from the path
+
+  const filteredBlogPosts = blogPosts.filter(
+    (post) => post.slug !== currentSlug
+  );
 
   return (
     <div className="container mx-auto py-12">
@@ -168,25 +174,24 @@ const Blog: React.FC<BlogProps> = ({
       <div className="mt-20">
         <h2 className="text-2xl font-bold mb-6 text-green-800">Other Blogs</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {blogPosts
-            .map((post) => (
-              <Link key={post.id} href={`/blogs/${post.slug}`}>
-                <Card className="p-2 hover:shadow-lg border-t-4 border-transparent hover:border-green-600 transition-all">
-                  <Image
-                    src={post.image}
-                    alt={post.title}
-                    width={400}
-                    height={300}
-                    className="rounded-md w-full h-40 object-cover mb-2"
-                  />
-                  <div className="p-2">
-                    <h3 className="text-md font-semibold text-green-700 mb-1">{post.title}</h3>
-                    <p className="text-sm text-muted-foreground mb-1">{post.excerpt}</p>
-                    <p className="text-xs text-muted-foreground">{post.date}</p>
-                  </div>
-                </Card>
-              </Link>
-            ))}
+          {filteredBlogPosts.map((post) => (
+            <Link key={post.id} href={`/blogs/${post.slug}`}>
+              <Card className="p-2 hover:shadow-lg border-t-4 border-transparent hover:border-green-600 transition-all">
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={400}
+                  height={300}
+                  className="rounded-md w-full h-40 object-cover mb-2"
+                />
+                <div className="p-2">
+                  <h3 className="text-md font-semibold text-green-700 mb-1">{post.title}</h3>
+                  <p className="text-sm text-muted-foreground mb-1">{post.excerpt}</p>
+                  <p className="text-xs text-muted-foreground">{post.date}</p>
+                </div>
+              </Card>
+            </Link>
+          ))}
         </div>
       </div>
     </div>
