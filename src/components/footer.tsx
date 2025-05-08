@@ -18,13 +18,7 @@ const Footer: FC = () => {
               <p className="text-sm">Email Us: <a href="mailto:pakindiawar2025@gmail.com" className="text-gray-300">pakindiawar2025@gmail.com</a></p>
             </div>
         
-            <div className="flex space-x-3">
-              <Link href="#" className="text-blue-400 hover:text-blue-300"><i className="fab fa-facebook-f"></i></Link>
-              <Link href="#" className="text-blue-400 hover:text-blue-300"><i className="fab fa-twitter"></i></Link>
-              <Link href="#" className="text-blue-400 hover:text-blue-300"><i className="fab fa-linkedin-in"></i></Link>
-              <Link href="#" className="text-blue-400 hover:text-blue-300"><i className="fab fa-instagram"></i></Link>
-              <Link href="#" className="text-blue-400 hover:text-blue-300"><i className="fab fa-youtube"></i></Link>
-            </div>
+    
           </div>
 
           {/* Top Posts Section */}

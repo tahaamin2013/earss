@@ -246,7 +246,6 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {blogPosts.map((post) => (
             <Card key={post.id} className="p-2 hover:shadow-lg border-t-4 border-transparent hover:border-green-600 transition-all">
-              <Link href={`/blogs/${post.slug}`}>
                 <Image
                   src={post.image}
                   alt={post.title}
@@ -254,7 +253,6 @@ export default function Home() {
                   height={300}
                   className="rounded-md w-full h-40 object-cover mb-2"
                 />
-              </Link>
               <div className="p-2 mt-[-30px]">
                 <h2 className="text-md font-semibold text-green-700 mb-1">
                   <Link href={`/blogs/${post.slug}`}>{post.title}</Link>
