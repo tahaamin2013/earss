@@ -7,12 +7,12 @@ export const metadata: Metadata = {
     canonical: "https://www.pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan",
   },
   description:
-    "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured. Read the full story for details.",
+    "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured.",
   keywords: "India Pakistan war 2025, Pakistan vs India war, Lahore attack, Sialkot bombing, Bahawalpur mosque, UN response, Kashmir conflict, Indian army, Pakistani retaliation",
   openGraph: {
     title: "India Attacks Multiple Places in Pakistan – Full Report",
     description:
-      "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured. Read the full story for details.",
+      "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured.",
     type: "article",
     publishedTime: "2025-05-06T00:00:00Z",
     authors: ["Taha Amin"],

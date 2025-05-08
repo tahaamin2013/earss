@@ -7,12 +7,12 @@ export const metadata: Metadata = {
     canonical: "https://www.pakindiawar.com/blogs/youngest-martyr-in-pakistan",
   },
   description:
-    "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion. His story has touched hearts across the nation.",
+    "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion.",
   keywords: "Youngest martyr in Pakistan, Pakistan child martyr, Jhelum explosion, India Pakistan war 2025, child victim, war effects on children",
   openGraph: {
     title: "A Sad Story of a Child– The Youngest Martyr in Pakistan",
     description:
-      "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion. His story has touched hearts across the nation.",
+      "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion.",
     type: "article",
     publishedTime: "2025-05-07T00:00:00Z",
     authors: ["Taha Amin"],
