@@ -2,7 +2,10 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "India Attacks Multiple Places in Pakistan – Full Report | PakIndiaWar",
+  title: "India Attacks Multiple Places in Pakistan | PakIndiaWar",
+  alternates: {
+    canonical: "https://pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan",
+  },
   description:
     "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured. Read the full story for details.",
   keywords: "India Pakistan war 2025, Pakistan vs India war, Lahore attack, Sialkot bombing, Bahawalpur mosque, UN response, Kashmir conflict, Indian army, Pakistani retaliation",

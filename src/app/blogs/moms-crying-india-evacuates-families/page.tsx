@@ -2,7 +2,10 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Are Moms Crying? India Sending Families Away | PakIndiaWar",
+  title: "Why Are Moms Crying? India vs Pakistan | PakIndiaWar",
+  alternates: {
+    canonical: "https://pakindiawar.com/blogs/moms-crying-india-evacuates-families",
+  },
   description:
     "New rules by India send moms or dads back to Pakistan, keeping children in India. Families cry as they are separated.",
   keywords:

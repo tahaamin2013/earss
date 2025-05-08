@@ -3,9 +3,12 @@ import Image from "next/image"
 import Link from "next/link"
 
 export const metadata = {
-  title: "India Pakistan War 2025 - Latest News on Pakistan vs India War",
+  title: "India Pakistan War 2025 - Latest News on Pakistan India War",
+  alternates: {
+    canonical: "https://pakindiawar.com",
+  },
   description:
-    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map, Indian Army, Pakistan Army, and today's pk vs India war.",
+    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map, Indian Army, Pakistan Army.",
   keywords: [
     "pak india war",
     "pakistan vs india war",

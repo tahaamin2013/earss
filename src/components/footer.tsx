@@ -41,7 +41,7 @@ const Footer: FC = () => {
                 image: "/India Attacks Multiple Places in Pakistan – Full Report.png",
                 title: "India Attacks Multiple Places in Pakistan",
                 date: "May 7, 2025",
-                slug: "china-stands-with-pakistan"
+                slug: "india-attacks-multiple-places-in-pakistan"
               }
             ].map((post, idx) => (
               <div key={idx} className="flex mb-4">

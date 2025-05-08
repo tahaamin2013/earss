@@ -2,7 +2,10 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "All Schools and Colleges in Islamabad Closed on May 7, 2025 | PakIndiaWar",
+  title: "All Schools and Colleges in Islamabad Closed | PakIndiaWar",
+  alternates: {
+    canonical: "https://pakindiawar.com/blogs/schools-closed-islamabad-may-7-2025",
+  },
   description:
     "Due to the current security situation, all public and private schools and colleges in Islamabad will remain closed on May 7, 2025.",
   keywords: "Schools closed Islamabad, Colleges closed Islamabad, Pakistan news, Islamabad May 7, 2025, India Pakistan war, Islamabad schools closure",
