@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan Destroys Indian Brigade Headquarters",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/pakistan-destroys-indian-army-base",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-destroys-indian-army-base",
   },
   description:
     "Pakistan shoots down 5 Indian jets and destroys army base after India attacks Punjab and Azad Kashmir. Full update on India Pakistan war 2025.",

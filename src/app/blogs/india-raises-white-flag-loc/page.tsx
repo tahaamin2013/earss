@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "India Raises White Flag at LOC | PakIndiaWar",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/india-raises-white-flag-loc",
+    canonical: "https://www.pakindiawar.com/blogs/india-raises-white-flag-loc",
   },
   description:
     "Indian army surrenders at LOC after heavy loss. Pakistan shoots down 5 jets and 8 drones. Read the full story in easy English.",

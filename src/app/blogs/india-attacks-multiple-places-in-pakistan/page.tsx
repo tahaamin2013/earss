@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "India Attacks Multiple Places in Pakistan | PakIndiaWar",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan",
+    canonical: "https://www.pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan",
   },
   description:
     "India attacked several areas in Pakistan, including Lahore, Sialkot, and Bahawalpur. Many people were scared and some were injured. Read the full story for details.",

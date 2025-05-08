@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan Shuts Down Its Airspace for Security | PakIndiaWar",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/pakistan-shuts-down-airspace",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-shuts-down-airspace",
   },
   description:
     "Pakistan has shut down its airspace to improve security and protect against threats, including India and Pakistan war.",

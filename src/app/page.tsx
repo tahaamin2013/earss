@@ -5,7 +5,7 @@ import Link from "next/link"
 export const metadata = {
   title: "India Pakistan War 2025 - Latest News on Pakistan India War",
   alternates: {
-    canonical: "https://pakindiawar.com",
+    canonical: "https://www.pakindiawar.com",
   },
   description:
     "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map, Indian Army, Pakistan Army.",
@@ -38,7 +38,7 @@ export const metadata = {
     title: "India Pakistan War 2025 - Latest News on Pakistan vs India War",
     description:
       "Live updates on pk vs India war, Indian and Pakistan armies, and today's India vs Pak war. Trusted source for India Pakistan war 2025 news.",
-    url: "https://pakindiawar.com",
+    url: "https://www.pakindiawar.com",
     type: "website",
   },
   robots: {

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "A Sad Story of a Child– The Youngest Martyr ",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/youngest-martyr-in-pakistan",
+    canonical: "https://www.pakindiawar.com/blogs/youngest-martyr-in-pakistan",
   },
   description:
     "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion. His story has touched hearts across the nation.",

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Turkish C-130E Plane Brings Defense Tools to Pakistan",
   alternates: {
-    canonical: "https://pakindiawar.com/blogs/turkish-plane-brings-defense-tools",
+    canonical: "https://www.pakindiawar.com/blogs/turkish-plane-brings-defense-tools",
   },
   description:
     "The Turkish C-130E plane landed in Karachi, bringing special tools to help Pakistan’s defense, especially against India Pakistan war.",
