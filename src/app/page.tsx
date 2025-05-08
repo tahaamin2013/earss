@@ -1,6 +1,49 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image"
 import Link from "next/link"
+
+export const metadata = {
+  title: "India Pakistan War 2025 - Latest News on Pakistan vs India War",
+  description:
+    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map, Indian Army, Pakistan Army, and today's pk vs India war.",
+  keywords: [
+    "pak india war",
+    "pakistan vs india war",
+    "india pakistan",
+    "india pakistan news",
+    "war of india and pakistan 2025",
+    "war of india and pakistan",
+    "war pakistan",
+    "india and pakistan news",
+    "india and pakistan war",
+    "india and pakistan jang",
+    "pk vs india war",
+    "pk vs india war 2025",
+    "pk vs india war today",
+    "india vs pak war today",
+    "War of india and pakistan 2025",
+    "India Pakistan war News",
+    "India-Pakistan 2025",
+    "India-Pakistan News",
+    "India-Pakistan war",
+    "India Pakistan map",
+    "India pakistan war 2025",
+    "Indian Army",
+    "Pakistan Army",
+  ],
+  openGraph: {
+    title: "India Pakistan War 2025 - Latest News on Pakistan vs India War",
+    description:
+      "Live updates on pk vs India war, Indian and Pakistan armies, and today's India vs Pak war. Trusted source for India Pakistan war 2025 news.",
+    url: "https://pakindiawar.com",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
 const blogPosts = [
 
   {
@@ -41,6 +84,11 @@ function HoverLink({ href, children, className = "" }: { href: string; children:
 export default function Home() {
   return (
     <section className="hero-post-area py-6 md:py-10 lg:py-16 mt-10">
+  <div className="text-center mb-6">      
+  <h1 className=" font-bold text-3xl">India Pakistan War 2025 – Latest News on Pakistan vs India Conflict</h1>
+
+  </div>
+
       <div className="container mb-[100px] mx-auto px-4">
         <div className="post-area-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:grid-rows-[auto]">
           {/* Left Column */}
@@ -49,7 +97,6 @@ export default function Home() {
               {/* First Post Card */}
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Link href="/blogs/india-attacks-multiple-places-in-pakistan">
                     <Image
                       src="/India Attacks Multiple Places in Pakistan – Full Report.png"
                       alt="Broken Jet"
@@ -57,7 +104,6 @@ export default function Home() {
                       height={400}
                       className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
                     />
-                  </Link>
                 </div>
                 <div className="post-content mt-3">
            
@@ -71,7 +117,6 @@ export default function Home() {
               {/* Second Post Card */}
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Link href="/blogs/schools-closed-islamabad-may-7-2025">
                     <Image
                       src="/Schools Closed in Islamabad on May 7, 2025.jpg"
                       alt="SChool Kids"
@@ -79,7 +124,6 @@ export default function Home() {
                       height={400}
                       className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
                     />
-                  </Link>
                 </div>
                 <div className="post-content mt-3">
                
@@ -101,7 +145,6 @@ export default function Home() {
                 <div className="swiper-slide h-full">
                   <div className="post-carousel-card card-2 text-center h-full rounded-xl overflow-hidden relative">
                     <div className="post-carousel-thumb overflow-hidden relative h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px]">
-                      <Link href="/blogs/youngest-martyr-in-pakistan" className="block w-full h-full absolute inset-0">
                         <Image
                           src="/assets/the-youngest-martyr-in-pakistan.jpg"
                           alt="Woman in fashion outfit"
@@ -111,7 +154,6 @@ export default function Home() {
                           style={{ objectFit: 'cover', objectPosition: 'center' }}
                           priority
                         />
-                      </Link>
                     </div>
                     <div className="post-carousel-content absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent text-white">
                       <span
@@ -128,9 +170,9 @@ export default function Home() {
                         <li className="author">
                           by{" "}
                           <span>
-                            <HoverLink href="/author-details" className="font-medium">
+                            <p  className="font-medium">
                               Amin Ahsan
-                            </HoverLink>
+                            </p>
                           </span>
                         </li>
                         <li className="date">July 29, 2024</li>
@@ -152,7 +194,6 @@ export default function Home() {
               {/* First Post Card */}
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Link href="/blogs/turkish-plane-brings-defense-tools">
                     <Image
                       src="/Turkish C-130E Plane.jpg"
                       alt="Broken Jet"
@@ -160,7 +201,6 @@ export default function Home() {
                       height={400}
                       className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
                     />
-                  </Link>
                 </div>
                 <div className="post-content mt-3">
            
@@ -174,7 +214,6 @@ export default function Home() {
               {/* Second Post Card */}
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Link href="/blogs/pakistan-shuts-down-airspace">
                     <Image
                       src="/Pakistan Airspace.jpg"
                       alt="SChool Kids"
@@ -182,7 +221,6 @@ export default function Home() {
                       height={400}
                       className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
                     />
-                  </Link>
                 </div>
                 <div className="post-content mt-3">
                

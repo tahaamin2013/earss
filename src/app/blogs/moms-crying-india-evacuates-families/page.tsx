@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Are Moms Crying? India Sending Families Away",
+  title: "Why Are Moms Crying? India Sending Families Away | PakIndiaWar",
   description:
     "New rules by India send moms or dads back to Pakistan, keeping children in India. Families cry as they are separated.",
   keywords:

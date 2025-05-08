@@ -104,7 +104,7 @@ const Blog: React.FC<BlogProps> = ({
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-3/4">
           <Link
-            href="/blogs"
+            href="/"
             className="text-green-700 hover:text-green-900 flex items-center gap-2 mb-6 group"
           >
             <ArrowLeft

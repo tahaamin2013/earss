@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "India Raises White Flag at LOC – Pakistan Wins Big",
+  title: "India Raises White Flag at LOC – Pakistan Wins Big | PakIndiaWar",
   description:
     "Indian army surrenders at LOC after heavy loss. Pakistan shoots down 5 jets and 8 drones. Read the full story in easy English.",
   keywords:

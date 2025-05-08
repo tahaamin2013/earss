@@ -2,14 +2,14 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "All Schools and Colleges in Islamabad Closed on May 7, 2025",
+  title: "All Schools and Colleges in Islamabad Closed on May 7, 2025 | PakIndiaWar",
   description:
-    "Due to the current security situation, all public and private schools and colleges in Islamabad will remain closed on May 7, 2025. Exams will still be held as scheduled.",
+    "Due to the current security situation, all public and private schools and colleges in Islamabad will remain closed on May 7, 2025.",
   keywords: "Schools closed Islamabad, Colleges closed Islamabad, Pakistan news, Islamabad May 7, 2025, India Pakistan war, Islamabad schools closure",
   openGraph: {
     title: "All Schools and Colleges in Islamabad Closed on May 7, 2025",
     description:
-      "Due to the current security situation, all public and private schools and colleges in Islamabad will remain closed on May 7, 2025. Exams will still be held as scheduled.",
+      "Due to the current security situation, all public and private schools and colleges in Islamabad will remain closed on May 7, 2025.",
     type: "article",
     publishedTime: "2025-05-07T00:00:00Z",
     authors: ["Taha Amin"],

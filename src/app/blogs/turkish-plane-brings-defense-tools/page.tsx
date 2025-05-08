@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Turkish C-130E Plane Brings New Defense Tools to Pakistan",
+  title: "Turkish C-130E Plane Brings New Defense Tools to Pakistan | PakIndiaWar",
   description:
     "The Turkish C-130E plane landed in Karachi, bringing special tools to help Pakistan’s defense, especially against India Pakistan war.",
   keywords: "C-130E Plane, Turkish defense, Pakistan defense, India Pakistan war, Pakistan military, Turkey Pakistan friendship, military tools",

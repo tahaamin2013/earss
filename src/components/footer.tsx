@@ -69,18 +69,18 @@ const Footer: FC = () => {
                 <span className="text-blue-400 text-sm">Arif Malik</span>
                 <span className="text-gray-400 text-xs mx-1">on</span>
               </div>
-              <Link href="/blog/india-raises-white-flag-loc" className="text-sm hover:text-blue-400">
+              <p className="text-sm hover:text-blue-400">
                 “Proud moment for our nation 🇵🇰.”
-              </Link>
+              </p>
             </div>
             <div className="mb-4">
               <div className="flex items-center mb-1">
                 <span className="text-blue-400 text-sm">Seema Rajput</span>
                 <span className="text-gray-400 text-xs mx-1">on</span>
               </div>
-              <Link href="/blog/india-attacks-multiple-places-in-pakistan" className="text-sm hover:text-blue-400">
+              <p  className="text-sm hover:text-blue-400">
                 “Sad to hear about innocent lives lost 😢.”
-              </Link>
+              </p>
             </div>
           </div>
         </div>

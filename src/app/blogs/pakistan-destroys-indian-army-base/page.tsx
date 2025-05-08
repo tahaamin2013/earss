@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pakistan Destroys Indian Brigade Headquarters in Retaliation",
+  title: "Pakistan Destroys Indian Brigade Headquarters in Retaliation | PakIndiaWar",
   description:
     "Pakistan shoots down 5 Indian jets and destroys army base after India attacks Punjab and Azad Kashmir. Full update on India Pakistan war 2025.",
   keywords:

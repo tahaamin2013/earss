@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "A Sad Story of a Child– The Youngest Martyr in Pakistan",
+  title: "A Sad Story of a Child– The Youngest Martyr in Pakistan | PakIndiaWar",
   description:
     "Read the heartbreaking story of Ali, an 8-year-old boy from Jhelum, Pakistan, who became the first young martyr in a tragic explosion. His story has touched hearts across the nation.",
   keywords: "Youngest martyr in Pakistan, Pakistan child martyr, Jhelum explosion, India Pakistan war 2025, child victim, war effects on children",

@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pakistan Shuts Down Its Airspace for Security",
+  title: "Pakistan Shuts Down Its Airspace for Security | PakIndiaWar",
   description:
     "Pakistan has shut down its airspace to improve security and protect against threats, including India and Pakistan war.",
   keywords: "Pakistan airspace closed, security measures, India Pakistan war, no-fly zone, aviation alert, Pakistan defense, war of India and Pakistan",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 export default function BlogPageComponent() {
   const blogContent = `
-    <h2 id="introduction" style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">Introduction</h2>
+    <h2 id="introduction" style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">Intro</h2>
     <p style="font-size: 1rem; line-height: 1.6;">Pakistan has decided to shut down its airspace. This means no planes are allowed to fly over or into Pakistan's airspace. This decision was made to make Pakistan safer and protect the country, especially in case of any war of India and Pakistan.</p>
 
     <h2 id="why-did-pakistan-shut-down-its-airspace" style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">Why Did Pakistan Shut Down Its Airspace?</h2>
@@ -48,7 +48,7 @@ export default function BlogPageComponent() {
         ]}
         publishDate="May 7, 2025"
         readTime="3 min read"
-        photo="https://source.unsplash.com/600x400/?airspace,security"
+        photo="/Pakistan Airspace.jpg"
         content={blogContent}
       />
     </>
