@@ -8,7 +8,7 @@ export const metadata = {
     canonical: "https://www.pakindiawar.com",
   },
   description:
-    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map,",
+    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map.",
   keywords: [
     "pak india war",
     "pakistan vs india war",
