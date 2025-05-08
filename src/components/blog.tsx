@@ -92,7 +92,6 @@ const Blog: React.FC<BlogProps> = ({
   content,
   photo,
 }) => {
-  const pathname = usePathname();
 
   return (
     <div className="container mx-auto py-12">
