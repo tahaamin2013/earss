@@ -9,7 +9,7 @@ const blogPosts = [
     excerpt: "Mothers are in tears as India evacuates families from the border areas.",
     slug: "moms-crying-india-evacuates-families",
     date: "May 7, 2025",
-    image: "/moms crying.jpg",
+    image: "/moms.jpg",
   },
   {
     id: 16,
