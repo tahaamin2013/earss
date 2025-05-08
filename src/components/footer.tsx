@@ -83,9 +83,15 @@ const Footer: FC = () => {
 
 
       {/* Copyright */}
-      <div className="border-t border-gray-800">
+      <div className="border-t flex items-center flex-row justify-between border-gray-800">
         <div className="container mx-auto px-4 py-4 text-center text-sm text-gray-400">
           © 2025 PakIndiaWar.com. All Rights Reserved.
+        </div>
+        <div className='hidden md:flex flex-row gap-[30px]'>
+          <Link href='/about'>About</Link>
+          <Link href='/disclaimer'>Disclaimer</Link>
+          <Link href='/policy'>Policy</Link>
+          <Link href='/terms-and-conditions'>Terms </Link>
         </div>
       </div>
     </footer>
