@@ -93,7 +93,6 @@ const Blog: React.FC<BlogProps> = ({
   photo,
 }) => {
   const pathname = usePathname();
-  const currentSlug = pathname.split("/").pop() || "";
 
   return (
     <div className="container mx-auto py-12">
