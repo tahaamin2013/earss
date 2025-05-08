@@ -10,7 +10,7 @@ const TermsAndConditions = () => {
       </p>
 
       <p>
-        This website is created to share stories, articles, and real-life experiences related to the conflicts and relationships between Pakistan and India. We also write about peace, family separation, history, and other topics that touch people's hearts. While visiting our website, we want all users to act respectfully and responsibly. Please read all the points below before continuing to use our site.
+        This website is created to share stories, articles, and real-life experiences related to the conflicts and relationships between Pakistan and India. We also write about peace, family separation, history, and other topics that touch peoples hearts. While visiting our website, we want all users to act respectfully and responsibly. Please read all the points below before continuing to use our site.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6">User Responsibilities</h2>

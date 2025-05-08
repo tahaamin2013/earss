@@ -8,7 +8,7 @@ const Disclaimer = () => {
         The information on <strong>PakIndiaWar.com</strong> is provided for general informational purposes only. While we make every effort to ensure the accuracy of the content we share, we cannot guarantee that all the information presented on this website is 100% correct. We encourage our readers to cross-check facts and consult other sources when making important decisions.
       </p>
       <p>
-        <strong>PakIndiaWar.com</strong> is not responsible for any loss or damage resulting from the use of this website or reliance on its content. All information provided is at the user's own risk.
+        <strong>PakIndiaWar.com</strong> is not responsible for any loss or damage resulting from the use of this website or reliance on its content. All information provided is at the users own risk.
       </p>
       <p>
         The views expressed in our articles are solely those of the authors and do not reflect the views or opinions of any political organization or government. We do not endorse any particular viewpoint or position. Our goal is to offer balanced perspectives based on historical facts, real-life experiences, and personal stories.
