@@ -62,7 +62,7 @@ const blogPosts = [
     excerpt: "In response to aggression, Pakistan takes down an Indian army base.",
     slug: "pakistan-destroys-indian-army-base",
     date: "May 7, 2025",
-    image: "/india broken headquarter.png",
+    image: "/india broken head quarter.jpeg",
   },
   {
     id: 17,
@@ -112,7 +112,7 @@ export default function Home() {
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
                   <Image
-                    src="/India Attacks Multiple Places in Pakistan – Full Report.png"
+                    src="/India Attacks Multiple Places in Pakistan Full Report.jpeg"
                     alt="Broken Jet"
                     width={400}
                     height={400}
@@ -132,7 +132,7 @@ export default function Home() {
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
                   <Image
-                    src="/Schools Closed in Islamabad on May 7, 2025.jpg"
+                    src="/Schools Closed in Islamabad on May7 2025.jpg"
                     alt="SChool Kids"
                     width={400}
                     height={400}
@@ -160,7 +160,8 @@ export default function Home() {
                       <Image
                         src="/assets/the-youngest-martyr-in-pakistan.jpg"
                         alt="Woman in fashion outfit"
-                        fill
+                        width={1200} // ✅ REQUIRED
+  height={800} // ✅ REQUIRED
                         sizes="(max-width: 768px) 100vw, 50vw"
                         className="object-cover object-center"
                         style={{ objectFit: "cover", objectPosition: "center" }}
@@ -197,7 +198,7 @@ export default function Home() {
               <div className="post-card">
                 <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
                   <Image
-                    src="/Turkish C-130E Plane.jpg"
+                    src="/Turkish C-130E  Plane.jpg"
                     alt="Broken Jet"
                     width={400}
                     height={400}

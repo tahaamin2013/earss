@@ -47,7 +47,7 @@ export default function BlogPageComponent() {
         ]}
         publishDate="May 7, 2025"
         readTime="3 min read"
-        photo="/Turkish C-130E Plane.jpg"
+        photo="/Turkish C-130E  Plane.jpg"
         content={blogContent}
       />
     </>

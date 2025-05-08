@@ -64,7 +64,7 @@ export default function BlogPageComponent() {
         ]}
         publishDate="May 7, 2025"
         readTime="3 min read"
-        photo="/assets/ali-thumbnail.png"
+        photo="/assets/ali-thumbnai.jpeg"
         content={blogContent}
       />
     </>

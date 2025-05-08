@@ -22,7 +22,8 @@ export default function RelatedArticles({ articles }: RelatedArticlesProps) {
               <Image 
                 src={article.image} 
                 alt={article.title} 
-                fill 
+                width={1200} // ✅ REQUIRED
+                height={800} // ✅ REQUIRED
                 className="object-cover"
               />
             </div>

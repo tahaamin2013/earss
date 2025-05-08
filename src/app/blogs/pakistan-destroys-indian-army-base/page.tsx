@@ -90,7 +90,7 @@ export default function BlogPageComponent() {
       ]}
       publishDate="May 8, 2025"
       readTime="4 min read"
-      photo="/india broken headquarter.png"
+      photo="/india broken head quarter.jpeg"
       content={blogContent}
     />
   );

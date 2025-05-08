@@ -38,7 +38,7 @@ const Footer: FC = () => {
                 slug: "india-raises-white-flag-loc"
               },
               {
-                image: "/India Attacks Multiple Places in Pakistan – Full Report.png",
+                image: "/India Attacks Multiple Places in Pakistan Full Report.jpeg",
                 title: "India Attacks Multiple Places in Pakistan",
                 date: "May 7, 2025",
                 slug: "india-attacks-multiple-places-in-pakistan"
@@ -49,7 +49,8 @@ const Footer: FC = () => {
                   <Image
                     src={post.image}
                     alt={post.title}
-                    fill
+                    width={1200} // ✅ REQUIRED
+                    height={800} // ✅ REQUIRED
                     className="object-cover"
                   />
                 </div>

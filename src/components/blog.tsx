@@ -22,7 +22,7 @@ const blogPosts = [
     excerpt: "Detailed report on the recent attacks by India on different areas of Pakistan.",
     slug: "india-attacks-multiple-places-in-pakistan",
     date: "May 7, 2025",
-    image: "/India Attacks Multiple Places in Pakistan – Full Report.png",
+    image: "/India Attacks Multiple Places in Pakistan Full Report.jpeg",
   },
   {
     id: 12,
@@ -30,7 +30,7 @@ const blogPosts = [
     excerpt: "Due to the recent attacks, all educational institutions in Islamabad have been closed.",
     slug: "schools-closed-islamabad-may-7-2025",
     date: "May 7, 2025",
-    image: "/Schools Closed in Islamabad on May 7, 2025.jpg",
+    image: "/Schools Closed in Islamabad on May7 2025.jpg",
   },
   {
     id: 13,
@@ -38,7 +38,7 @@ const blogPosts = [
     excerpt: "Turkey sends defense tools to Pakistan using the C-130E aircraft to support its ally.",
     slug: "turkish-plane-brings-defense-tools",
     date: "May 7, 2025",
-    image: "/Turkish C-130E Plane.jpg",
+    image: "/Turkish C-130E  Plane.jpg",
   },
   {
     id: 14,
@@ -62,7 +62,7 @@ const blogPosts = [
     excerpt: "In response to aggression, Pakistan takes down an Indian army base.",
     slug: "pakistan-destroys-indian-army-base",
     date: "May 7, 2025",
-    image: "/india broken headquarter.png",
+    image: "/india broken head quarter.jpeg",
   },
   {
     id: 17,

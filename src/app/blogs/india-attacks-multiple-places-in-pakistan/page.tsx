@@ -69,7 +69,7 @@ export default function BlogPageComponent() {
         ]}
         publishDate="May 6, 2025"
         readTime="2 min read"
-        photo="/India Attacks Multiple Places in Pakistan – Full Report.png"
+        photo="/India Attacks Multiple Places in Pakistan Full Report.jpeg"
         content={blogContent}
       />
     </>
