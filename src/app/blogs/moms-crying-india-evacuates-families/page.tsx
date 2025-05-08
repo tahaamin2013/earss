@@ -50,7 +50,7 @@ export default function BlogPageComponent() {
       ]}
       publishDate="May 8, 2025"
       readTime="2 min read"
-      photo="/Moms Crying.jpg"
+      photo="/moms crying.jpg"
       content={blogContent}
     />
   );
