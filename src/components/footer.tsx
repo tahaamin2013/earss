@@ -15,7 +15,7 @@ const Footer: FC = () => {
               PakIndiaWar.com gives you real-time updates, news, and stories on the Pakistan and India conflict in simple English. Stay informed with easy-to-understand war updates, facts, and leader statements.
             </p>
             <div className="mb-2">
-              <p className="text-sm">Email Us: <a href="mailto:contact@pakindiawar.com" className="text-gray-300">pakindiawar2025@gmail.com</a></p>
+              <p className="text-sm">Email Us: <a href="mailto:pakindiawar2025@gmail.com" className="text-gray-300">pakindiawar2025@gmail.com</a></p>
             </div>
         
             <div className="flex space-x-3">
