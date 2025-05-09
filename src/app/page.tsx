@@ -4,12 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "India Pakistan War 2025 - Latest News on Pakistan India War",
+  title: "India Pakistan War 2025 – Latest News on Pakistan vs India Conflict",
   alternates: {
     canonical: "https://www.pakindiawar.com",
   },
   description:
-    "Stay updated on the war of India and Pakistan 2025. PakIndiaWar.com brings you breaking news on Pakistan vs India war, India Pakistan map.",
+    "Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025.",
   keywords: [
     "pak india war",
     "pakistan vs india war",
@@ -36,9 +36,9 @@ export const metadata = {
     "Pakistan Army",
   ],
   openGraph: {
-    title: "India Pakistan War 2025 - Latest News on Pakistan vs India War",
+    title: "India Pakistan War 2025 – Latest News on Pakistan vs India War",
     description:
-      "Live updates on pk vs India war, Indian and Pakistan armies, and today's India vs Pak war. Trusted source for India Pakistan war 2025 news.",
+      "Stay updated with the latest news on India Pakistan War 2025. Get real-time updates and news on the ongoing conflict.",
     url: "https://www.pakindiawar.com",
     type: "website",
   },
@@ -47,7 +47,6 @@ export const metadata = {
     follow: true,
   },
 };
-
 
 function HoverLink({
   href,
@@ -70,61 +69,46 @@ function HoverLink({
 }
 
 export default function Home() {
+  const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const topPosts = sortedPosts.slice(0, 5); // Get the first 5 posts
+  const otherPosts = sortedPosts.slice(5); // Get the remaining posts
+
   return (
     <section className="hero-post-area py-6 md:py-10 lg:py-16 mt-10">
       <div className="text-center mb-6">
         <h1 className="font-bold text-3xl">
           India Pakistan War 2025 – Latest News on Pakistan vs India Conflict
         </h1>
-        <p className="text-sm w-fit md:w-[1000px] mx-auto">Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan. Learn about the India and Pakistan War, PK vs India War events, and the movements of the Indian Army and Pakistan Army. Stay informed about the India Pakistan map, PK vs India War 2025, and the India-Pakistan War. Our site is your trusted source for all India Pakistan War News.
-
-</p>
+        <p className="text-sm w-fit md:w-[1000px] mx-auto">
+          Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan.
+        </p>
       </div>
 
       <div className="container mb-[100px] mx-auto px-4">
-        <div className="post-area-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 md:grid-rows-[auto]">
+        <div className="post-area-wrap grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
           {/* Left Column */}
           <div className="post-area-right-2 md:col-span-1 lg:col-span-3">
             <div className="post-card-wrap space-y-6">
-              {/* Post 1 */}
-              <div className="post-card">
-                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Image
-                    src="/India Attacks Multiple Places in Pakistan Full Report.jpeg"
-                    alt="Broken Jet"
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                  />
+              {topPosts.slice(1, 3).map((post) => (
+                <div className="post-card" key={post.id}>
+                  <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                    />
+                  </div>
+                  <div className="post-content mt-3">
+                    <h2 className="title text-base sm:text-lg font-bold mt-2">
+                      <HoverLink href={`/blogs/${post.slug}`}>
+                        {post.title}
+                      </HoverLink>
+                    </h2>
+                  </div>
                 </div>
-                <div className="post-content mt-3">
-                  <h2 className="title text-base sm:text-lg font-bold mt-2">
-                    <HoverLink href="/blogs/india-attacks-multiple-places-in-pakistan">
-                      India Attacks Multiple Places in Pakistan – Full Report
-                    </HoverLink>
-                  </h2>
-                </div>
-              </div>
-
-              {/* Post 2 */}
-              <div className="post-card">
-                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Image
-                    src="/Schools Closed in Islamabad on May7 2025.jpg"
-                    alt="SChool Kids"
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                  />
-                </div>
-                <div className="post-content mt-3">
-                  <h2 className="title text-base sm:text-lg font-bold mt-2">
-                    <HoverLink href="/blogs/schools-closed-islamabad-may-7-2025">
-                      All Schools and Colleges in Islamabad Closed on May 7, 2025
-                    </HoverLink>
-                  </h2>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
@@ -136,12 +120,12 @@ export default function Home() {
                   <div className="post-carousel-card card-2 text-center h-full rounded-xl overflow-hidden relative">
                     <div className="post-carousel-thumb overflow-hidden relative h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px]">
                       <Image
-                        src="/assets/the-youngest-martyr-in-pakistan.jpg"
-                        alt="Woman in fashion outfit"
-                        width={1200} // ✅ REQUIRED
-  height={800} // ✅ REQUIRED
+                        src={topPosts[0].image}
+                        alt={topPosts[0].title}
+                        width={1200}
+                        height={800}
                         sizes="(max-width: 768px) 100vw, 50vw"
-                        className="object-cover object-center"
+                        className="object-cover object-center w-full h-full transition-transform hover:scale-105 duration-300"
                         style={{ objectFit: "cover", objectPosition: "center" }}
                         priority
                       />
@@ -151,16 +135,15 @@ export default function Home() {
                         WAR
                       </span>
                       <h2 className="title text-xl sm:text-2xl md:text-3xl font-bold mt-2 md:mt-3">
-                        <HoverLink href="/blogs/youngest-martyr-in-pakistan" className="text-white">
-                          A Sad Story of a Child - The Youngest Martyr in Pakistan
+                        <HoverLink href={`/blogs/${topPosts[0].slug}`} className="text-white">
+                          {topPosts[0].title}
                         </HoverLink>
                       </h2>
                       <ul className="post-list flex flex-wrap items-center justify-center gap-2 md:gap-4 mt-2 md:mt-3 text-xs sm:text-sm">
                         <li className="author">
                           by <span><p className="font-medium">Amin Ahsan</p></span>
                         </li>
-                        <li className="date">July 29, 2024</li>
-                        <li className="flex items-center"><span className="mr-1">5</span></li>
+                        <li className="date">{topPosts[0].date}</li>
                       </ul>
                     </div>
                   </div>
@@ -172,68 +155,50 @@ export default function Home() {
           {/* Right Column */}
           <div className="post-area-right-2 md:col-span-1 lg:col-span-3">
             <div className="post-card-wrap space-y-6">
-              {/* Post 1 */}
-              <div className="post-card">
-                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Image
-                    src="/Turkish C-130E  Plane.jpg"
-                    alt="Broken Jet"
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                  />
+              {topPosts.slice(3, 5).map((post) => (
+                <div className="post-card" key={post.id}>
+                  <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                    <Image
+                      src={post.image}
+                      alt={post.title}
+                      width={400}
+                      height={400}
+                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                    />
+                  </div>
+                  <div className="post-content mt-3">
+                    <h2 className="title text-base sm:text-lg font-bold mt-2">
+                      <HoverLink href={`/blogs/${post.slug}`}>
+                        {post.title}
+                      </HoverLink>
+                    </h2>
+                  </div>
                 </div>
-                <div className="post-content mt-3">
-                  <h2 className="title text-base sm:text-lg font-bold mt-2">
-                    <HoverLink href="/blogs/turkish-plane-brings-defense-tools">
-                      Turkish C-130E Plane Brings New Defense Tools to Pakistan
-                    </HoverLink>
-                  </h2>
-                </div>
-              </div>
-
-              {/* Post 2 */}
-              <div className="post-card">
-                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                  <Image
-                    src="/Pakistan Airspace.jpg"
-                    alt="SChool Kids"
-                    width={400}
-                    height={400}
-                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                  />
-                </div>
-                <div className="post-content mt-3">
-                  <h2 className="title text-base sm:text-lg font-bold mt-2">
-                    <HoverLink href="/blogs/pakistan-shuts-down-airspace">
-                      Pakistan Shuts Down Its Airspace for Security
-                    </HoverLink>
-                  </h2>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
 
-      {/* Other Blogs Section (Fixed Here) */}
+      {/* Other Blogs Section */}
       <div className="mt-20 px-[30px]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {blogPosts.map((post) => (
+          {otherPosts.map((post) => (
             <Card key={post.id} className="p-2 hover:shadow-lg border-t-4 border-transparent hover:border-green-600 transition-all">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  width={400}
-                  height={300}
-                  className="rounded-md w-full h-40 object-cover mb-2"
-                />
+              <Image
+                src={post.image}
+                alt={post.title}
+                width={400}
+                height={300}
+                className="rounded-md w-full h-40 object-cover mb-2"
+              />
               <div className="p-2 mt-[-30px]">
                 <h2 className="text-md font-semibold text-green-700 mb-1">
                   <Link href={`/blogs/${post.slug}`}>{post.title}</Link>
                 </h2>
-                <p className="text-sm text-muted-foreground mb-1">{post.excerpt}</p>
-                <p className="text-xs text-muted-foreground">{post.date}</p>
+                <div className="text-sm">
+                  <span className="font-medium">{post.date}</span>
+                </div>
               </div>
             </Card>
           ))}

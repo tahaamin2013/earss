@@ -115,6 +115,14 @@ export const blogPosts = [
     date: "May 9, 2025",
     image: "/war-updates-2025.jpg",
   },
+        {
+        id: 6,
+        title: "India Stops IPL – Big War With Pakistan Starting Soon",
+        excerpt: "India suspends IPL as it prepares for a big strike on Pakistan",
+        slug: "india-stops-ipl-war-with-pakistan",
+        date: "May 9, 2025",
+        image: "/ipl.webp",
+      }
 
   
 ];
