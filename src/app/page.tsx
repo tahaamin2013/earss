@@ -1,4 +1,3 @@
-import { blogPosts } from "@/components/data";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 import Link from "next/link";
@@ -48,54 +47,94 @@ export const metadata = {
   },
 };
 
-const topSectionArticles = [
-   {
-    id: 3,
-    title: "🪖 Operation Sindoor: India and Pakistan War 2025 Explained Simply",
-    excerpt: "What is Operation Sindoor? We explain it in easy words for young readers.",
-    link: "operation-sindoor-war-2025-explained",
-    date: "May 9, 2025",
-    image: "/operation-sindoor-2025.jpg",
-  },
-  {
-    id: 4,
-    title: "📍 Operation Sindoor: Strike Locations in Pakistan | India-Pakistan War 2025",
-    excerpt: "Where did India attack in Pakistan during Operation Sindoor? Here's a simple list.",
-    link: "operation-sindoor-strike-locations",
-    date: "May 9, 2025",
-    image: "/operation-sindoor-strike-map.webp",
-  },
-  {
-    id: 5,
-    title: "🚫 India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan",
-    excerpt: "India says no to peace talks and keeps attacking Pakistan. What happens now?",
-    link: "india-rejects-mediation-continues-war",
-    date: "May 9, 2025",
-    image: "/india-rejects-mediation.webp",
-  },
-  {
-    id: 6,
-    title: "📰 India-Pakistan War 2025 - Latest Updates and Tensions",
-    excerpt: "Stay updated with the latest news on the 2025 India-Pakistan war.",
-    link: "india-pakistan-war-2025-updates",
-    date: "May 9, 2025",
-    image: "/war-updates-2025.jpg",
-  }
-  
-];
+  const blogPosts = [
+    {
+      id: 15,
+      title: "Why Are Moms Crying? India Sending Families Away",
+      excerpt: "Mothers are in tears as India evacuates families from the border areas.",
+      slug: "moms-crying-india-evacuates-families",
+      date: "May 7, 2025",
+      image: "/moms.jpg",
+    },
+    {
+      id: 16,
+      title: "Pakistan Destroys Indian Army Base After India’s Attack",
+      excerpt: "In response to aggression, Pakistan takes down an Indian army base.",
+      slug: "pakistan-destroys-indian-army-base",
+      date: "May 7, 2025",
+      image: "/india broken head quarter.jpeg",
+    },
+    {
+      id: 17,
+      title: "🇵🇰 India Raises White Flag – What Happened at the LOC?",
+      excerpt: "After intense moments at the LOC, India raises a white flag. Full details inside.",
+      slug: "india-raises-white-flag-loc",
+      date: "May 7, 2025",
+      image: "/india white flag.webp",
+    },
 
-const carouselItems = [
-  {
-    id: 1,
-    title: "🇵🇰 Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
-    excerpt: "A simple look at why India and Pakistan are fighting in 2025, and how strong their armies are.",
-    link: "pakistan-india-war-2025-tensions-military-strength",
-    date: "May 9, 2025",
-    image: "/pakistan-india-war-2025.jpg",
-  },
-  // Add more items here as needed
-];
+    
+      {
+        id: 1,
+        title: "🇵🇰 Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
+        excerpt: "A simple look at why India and Pakistan are fighting in 2025, and how strong their armies are.",
+        slug: "pakistan-india-war-2025-tensions-military-strength",
+        date: "May 9, 2025",
+        image: "/pakistan-india-war-2025.jpg",
+      },
+      {
+        id: 2,
+        title: "🔥 Big News: Drone Attack in Rawalpindi – India Pakistan War 2025?",
+        excerpt: "A drone hit Rawalpindi! Is it a big move in the India-Pakistan war?",
+        slug: "drone-attack-rawalpindi-war-2025",
+        date: "May 9, 2025",
+        image: "/drone-attack-rawalpindi.jpg",
+      },
+      {
+        id: 3,
+        title: "🪖 Operation Sindoor: India and Pakistan War 2025 Explained Simply",
+        excerpt: "What is Operation Sindoor? We explain it in easy words for young readers.",
+        slug: "operation-sindoor-war-2025-explained",
+        date: "May 9, 2025",
+        image: "/operation-sindoor-2025.jpg",
+      },
+      {
+        id: 4,
+        title: "📍 Operation Sindoor: Strike Locations in Pakistan | India-Pakistan War 2025",
+        excerpt: "Where did India attack in Pakistan during Operation Sindoor? Here's a simple list.",
+        slug: "operation-sindoor-strike-locations",
+        date: "May 9, 2025",
+        image: "/operation-sindoor-strike-map.webp",
+      },
+      {
+        id: 5,
+        title: "🚫 India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan",
+        excerpt: "India says no to peace talks and keeps attacking Pakistan. What happens now?",
+        slug: "india-rejects-mediation-continues-war",
+        date: "May 9, 2025",
+        image: "/india-rejects-mediation.webp",
+      },
+      {
+        id: 6,
+        title: "📰 India-Pakistan War 2025 - Latest Updates and Tensions",
+        excerpt: "Stay updated with the latest news on the 2025 India-Pakistan war.",
+        slug: "india-pakistan-war-2025-updates",
+        date: "May 9, 2025",
+        image: "/war-updates-2025.jpg",
+      }
+,
+       {
+        id: 6,
+        title: "India Stops IPL – Big War With Pakistan Starting Soon",
+        excerpt: "India suspends IPL as it prepares for a big strike on Pakistan",
+        slug: "india-stops-ipl-war-with-pakistan",
+        date: "May 9, 2025",
+        image: "/ipl.webp",
+      }
+    
+    
 
+  ];
 
 function HoverLink({
   href,
@@ -124,9 +163,9 @@ export default function Home() {
         <h1 className="font-bold text-3xl">
           India Pakistan War 2025 – Latest News on Pakistan vs India Conflict
         </h1>
-        <p className="text-sm w-fit md:w-[1000px] mx-auto">
-          Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan. Learn about the India and Pakistan War, PK vs India War events, and the movements of the Indian Army and Pakistan Army. Stay informed about the India Pakistan map, PK vs India War 2025, and the India-Pakistan War. Our site is your trusted source for all India Pakistan War News.
-        </p>
+        <p className="text-sm w-fit md:w-[1000px] mx-auto">Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan. Learn about the India and Pakistan War, PK vs India War events, and the movements of the Indian Army and Pakistan Army. Stay informed about the India Pakistan map, PK vs India War 2025, and the India-Pakistan War. Our site is your trusted source for all India Pakistan War News.
+
+</p>
       </div>
 
       <div className="container mb-[100px] mx-auto px-4">
@@ -134,105 +173,148 @@ export default function Home() {
           {/* Left Column */}
           <div className="post-area-right-2 md:col-span-1 lg:col-span-3">
             <div className="post-card-wrap space-y-6">
-              {topSectionArticles.slice(0, 2).map((article, index) => (
-                <div key={index} className="post-card">
-                  <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                    <Image
-                      src={article.image}
-                      alt={article.title}
-                      width={400}
-                      height={400}
-                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                    />
-                  </div>
-                  <div className="post-content mt-3">
-                    <h2 className="title text-base sm:text-lg font-bold mt-2">
-                      <HoverLink href={article.link}>{article.title}</HoverLink>
-                    </h2>
-                  </div>
+              {/* Post 1 */}
+              <div className="post-card">
+                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                  <Image
+                    src="/India Attacks Multiple Places in Pakistan Full Report.jpeg"
+                    alt="Broken Jet"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  />
                 </div>
-              ))}
+                <div className="post-content mt-3">
+                  <h2 className="title text-base sm:text-lg font-bold mt-2">
+                    <HoverLink href="/blogs/india-attacks-multiple-places-in-pakistan">
+                      India Attacks Multiple Places in Pakistan – Full Report
+                    </HoverLink>
+                  </h2>
+                </div>
+              </div>
+
+              {/* Post 2 */}
+              <div className="post-card">
+                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                  <Image
+                    src="/Schools Closed in Islamabad on May7 2025.jpg"
+                    alt="SChool Kids"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  />
+                </div>
+                <div className="post-content mt-3">
+                  <h2 className="title text-base sm:text-lg font-bold mt-2">
+                    <HoverLink href="/blogs/schools-closed-islamabad-may-7-2025">
+                      All Schools and Colleges in Islamabad Closed on May 7, 2025
+                    </HoverLink>
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Center Carousel */}
-       <div className="post-carousel-wrap md:col-span-2 lg:col-span-6 relative order-first md:order-none mb-6 md:mb-0 h-full">
-  <div className="post-carousel h-full">
-    <div className="swiper-wrapper h-full">
-      {carouselItems.map((item) => (
-        <div key={item.id} className="swiper-slide h-full">
-          <div className="post-carousel-card card-2 text-center h-full rounded-xl overflow-hidden relative">
-            <div className="post-carousel-thumb overflow-hidden relative h-full min-h-[200px] sm:min-h-[300px] md:min-h-[400px]">
-              <Image
-                src={item.image}
-                alt={item.title}
-                width={1200}
-                height={800}
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover object-bottom w-full h-full transition-transform hover:scale-105 duration-300" 
-                style={{ objectFit: "cover", objectPosition: "center" }}
-                priority
-              />
-            </div>
-            <div className="post-carousel-content absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent text-white">
-       
-              <h2 className="title text-xl sm:text-2xl md:text-3xl font-bold mt-2 md:mt-3">
-                <HoverLink href={item.link} className="text-white">
-                  {item.title}
-                </HoverLink>
-              </h2>
-              <ul className="post-list flex flex-wrap items-center justify-center gap-2 md:gap-4 mt-2 md:mt-3 text-xs sm:text-sm">
-          
-                <li className="date">{item.date}</li>
-                <li className="flex items-center"><span className="mr-1">5</span></li>
-              </ul>
+          <div className="post-carousel-wrap md:col-span-2 lg:col-span-6 relative order-first md:order-none mb-6 md:mb-0 h-full">
+            <div className="post-carousel h-full">
+              <div className="swiper-wrapper h-full">
+                <div className="swiper-slide h-full">
+                  <div className="post-carousel-card card-2 text-center h-full rounded-xl overflow-hidden relative">
+                    <div className="post-carousel-thumb overflow-hidden relative h-full min-h-[300px] sm:min-h-[400px] md:min-h-[500px]">
+                      <Image
+                        src="/assets/the-youngest-martyr-in-pakistan.jpg"
+                        alt="Woman in fashion outfit"
+                        width={1200} // ✅ REQUIRED
+  height={800} // ✅ REQUIRED
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        className="object-cover object-center"
+                        style={{ objectFit: "cover", objectPosition: "center" }}
+                        priority
+                      />
+                    </div>
+                    <div className="post-carousel-content absolute bottom-0 left-0 right-0 p-4 md:p-6 bg-gradient-to-t from-black/80 via-black/50 to-transparent text-white">
+                      <span className="card-btn bg-red-500 inline-block px-3 py-1 text-xs font-semibold text-white rounded-sm">
+                        WAR
+                      </span>
+                      <h2 className="title text-xl sm:text-2xl md:text-3xl font-bold mt-2 md:mt-3">
+                        <HoverLink href="/blogs/youngest-martyr-in-pakistan" className="text-white">
+                          A Sad Story of a Child - The Youngest Martyr in Pakistan
+                        </HoverLink>
+                      </h2>
+                      <ul className="post-list flex flex-wrap items-center justify-center gap-2 md:gap-4 mt-2 md:mt-3 text-xs sm:text-sm">
+                        <li className="author">
+                          by <span><p className="font-medium">Amin Ahsan</p></span>
+                        </li>
+                        <li className="date">July 29, 2024</li>
+                        <li className="flex items-center"><span className="mr-1">5</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      ))}
-    </div>
-  </div>
-</div>
-
 
           {/* Right Column */}
           <div className="post-area-right-2 md:col-span-1 lg:col-span-3">
             <div className="post-card-wrap space-y-6">
-              {topSectionArticles.slice(2).map((article, index) => (
-                <div key={index} className="post-card">
-                  <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
-                    <Image
-                      src={article.image}
-                      alt={article.title}
-                      width={400}
-                      height={400}
-                      className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
-                    />
-                  </div>
-                  <div className="post-content mt-3">
-                    <h2 className="title text-base sm:text-lg font-bold mt-2">
-                      <HoverLink href={article.link}>{article.title}</HoverLink>
-                    </h2>
-                  </div>
+              {/* Post 1 */}
+              <div className="post-card">
+                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                  <Image
+                    src="/Turkish C-130E  Plane.jpg"
+                    alt="Broken Jet"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  />
                 </div>
-              ))}
+                <div className="post-content mt-3">
+                  <h2 className="title text-base sm:text-lg font-bold mt-2">
+                    <HoverLink href="/blogs/turkish-plane-brings-defense-tools">
+                      Turkish C-130E Plane Brings New Defense Tools to Pakistan
+                    </HoverLink>
+                  </h2>
+                </div>
+              </div>
+
+              {/* Post 2 */}
+              <div className="post-card">
+                <div className="post-thumb rounded-md overflow-hidden aspect-[20/15]">
+                  <Image
+                    src="/Pakistan Airspace.jpg"
+                    alt="SChool Kids"
+                    width={400}
+                    height={400}
+                    className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+                  />
+                </div>
+                <div className="post-content mt-3">
+                  <h2 className="title text-base sm:text-lg font-bold mt-2">
+                    <HoverLink href="/blogs/pakistan-shuts-down-airspace">
+                      Pakistan Shuts Down Its Airspace for Security
+                    </HoverLink>
+                  </h2>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Other Blogs Section */}
+      {/* Other Blogs Section (Fixed Here) */}
       <div className="mt-20 px-[30px]">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {blogPosts.map((post) => (
             <Card key={post.id} className="p-2 hover:shadow-lg border-t-4 border-transparent hover:border-green-600 transition-all">
-              <Image
-                src={post.image}
-                alt={post.title}
-                width={400}
-                height={300}
-                className="rounded-md w-full h-40 object-cover mb-2"
-              />
+                <Image
+                  src={post.image}
+                  alt={post.title}
+                  width={400}
+                  height={300}
+                  className="rounded-md w-full h-40 object-cover mb-2"
+                />
               <div className="p-2 mt-[-30px]">
                 <h2 className="text-md font-semibold text-green-700 mb-1">
                   <Link href={`/blogs/${post.slug}`}>{post.title}</Link>

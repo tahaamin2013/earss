@@ -67,7 +67,54 @@ export const blogPosts = [
   
    
   
-
+  {
+    id: 1,
+    title: "🇵🇰 Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
+    excerpt: "A simple look at why India and Pakistan are fighting in 2025, and how strong their armies are.",
+    slug: "pakistan-india-war-2025-tensions-military-strength",
+    date: "May 9, 2025",
+    image: "/pakistan-india-war-2025.jpg",
+  },
+  {
+    id: 2,
+    title: "🔥 Big News: Drone Attack in Rawalpindi – India Pakistan War 2025?",
+    excerpt: "A drone hit Rawalpindi! Is it a big move in the India-Pakistan war?",
+    slug: "drone-attack-rawalpindi-war-2025",
+    date: "May 9, 2025",
+    image: "/drone-attack-rawalpindi.jpg",
+  },
+  {
+    id: 3,
+    title: "🪖 Operation Sindoor: India and Pakistan War 2025 Explained Simply",
+    excerpt: "What is Operation Sindoor? We explain it in easy words for young readers.",
+    slug: "operation-sindoor-war-2025-explained",
+    date: "May 9, 2025",
+    image: "/operation-sindoor-2025.jpg",
+  },
+  {
+    id: 4,
+    title: "📍 Operation Sindoor: Strike Locations in Pakistan | India-Pakistan War 2025",
+    excerpt: "Where did India attack in Pakistan during Operation Sindoor? Here's a simple list.",
+    slug: "operation-sindoor-strike-locations",
+    date: "May 9, 2025",
+    image: "/operation-sindoor-strike-map.webp",
+  },
+  {
+    id: 5,
+    title: "🚫 India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan",
+    excerpt: "India says no to peace talks and keeps attacking Pakistan. What happens now?",
+    slug: "india-rejects-mediation-continues-war",
+    date: "May 9, 2025",
+    image: "/india-rejects-mediation.webp",
+  },
+  {
+    id: 6,
+    title: "📰 India-Pakistan War 2025 - Latest Updates and Tensions",
+    excerpt: "Stay updated with the latest news on the 2025 India-Pakistan war.",
+    slug: "india-pakistan-war-2025-updates",
+    date: "May 9, 2025",
+    image: "/war-updates-2025.jpg",
+  },
 
   
 ];
