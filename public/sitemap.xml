@@ -1,23 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.pakindiawar.com/blogs/drone-attack-rawalpindi-war-2025</loc><lastmod>2025-05-09T16:46:45.531Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/india-stops-ipl-war-with-pakistan</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/india-rejects-mediation-continues-war</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/operation-sindoor-strike-locations</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/pakistan-destroys-indian-army-base</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/india-pakistan-war-2025-updates</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/about</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/pakistan-india-war-2025-tensions-military-strength</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/schools-closed-islamabad-may-7-2025</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/operation-sindoor-war-2025-explained</loc><lastmod>2025-05-09T16:46:45.532Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/turkish-plane-brings-defense-tools</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/pakistan-shuts-down-airspace</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/india-raises-white-flag-loc</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/policy</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/disclaimer</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/terms-and-conditions</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/moms-crying-india-evacuates-families</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com/blogs/youngest-martyr-in-pakistan</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.pakindiawar.com</loc><lastmod>2025-05-09T16:46:45.533Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/drone-attack-rawalpindi-war-2025</loc>
+  <lastmod>2025-05-09T16:46:45.531Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.531Z</news:publication_date>
+    <news:title>Drone Attack on Rawalpindi - War 2025</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/india-stops-ipl-war-with-pakistan</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>India Stops IPL Amid War with Pakistan</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/india-rejects-mediation-continues-war</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>India Rejects Mediation, Continues War with Pakistan</news:title>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://www.pakindiawar.com/blogs/india-attacks-multiple-places-in-pakistan</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>India Attacks Multiple Places in Pakistan</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/operation-sindoor-strike-locations</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>Operation Sindoor Strike Locations</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/pakistan-destroys-indian-army-base</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>Pakistan Destroys Indian Army Base</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/india-pakistan-war-2025-updates</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>India-Pakistan War 2025 Updates</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/about</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>About Pak India War</news:title>
+  </news:news>
+</url>
+
+<url>
+  <loc>https://www.pakindiawar.com/blogs/pakistan-india-war-2025-tensions-military-strength</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>Pakistan-India War 2025: Tensions & Military Strength</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/schools-closed-islamabad-may-7-2025</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>Schools Closed in Islamabad, May 7, 2025</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/operation-sindoor-war-2025-explained</loc>
+  <lastmod>2025-05-09T16:46:45.532Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.532Z</news:publication_date>
+    <news:title>Operation Sindoor War 2025 Explained</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/turkish-plane-brings-defense-tools</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Turkish Plane Brings Defense Tools</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/pakistan-shuts-down-airspace</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Pakistan Shuts Down Airspace</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/india-raises-white-flag-loc</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>India Raises White Flag at LOC</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/policy</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Policy</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/disclaimer</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Disclaimer</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/terms-and-conditions</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Terms and Conditions</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/moms-crying-india-evacuates-families</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Moms Crying as India Evacuates Families</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com/blogs/youngest-martyr-in-pakistan</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Youngest Martyr in Pakistan</news:title>
+  </news:news>
+</url>
+<url>
+  <loc>https://www.pakindiawar.com</loc>
+  <lastmod>2025-05-09T16:46:45.533Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.7</priority>
+  <news:news>
+    <news:publication>
+      <news:name>Pak India War</news:name>
+      <news:language>en</news:language>
+    </news:publication>
+    <news:publication_date>2025-05-09T16:46:45.533Z</news:publication_date>
+    <news:title>Pak India War Homepage</news:title>
+  </news:news>
+</url>
 </urlset>
