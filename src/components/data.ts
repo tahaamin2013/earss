@@ -122,6 +122,22 @@ export const blogPosts = [
         slug: "india-stops-ipl-war-with-pakistan",
         date: "May 9, 2025",
         image: "/ipl.webp",
+      },
+
+
+
+
+
+
+
+
+            {
+        id: 6,
+        title: "India-Pakistan War Update: Explosions Near Noor Khan Air Base in Rawalpindi and Lahore",
+        excerpt: "India suspends IPL as it prepares for a big strike on Pakistan",
+        slug: "india-pakistan-war-update-explosions-near-noor-khan-air-base",
+        date: "May 10, 2025",
+        image: "/blast plane.png",
       }
 
   
