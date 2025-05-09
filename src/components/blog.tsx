@@ -36,7 +36,7 @@ const Blog: React.FC<BlogProps> = ({
   );
 
   return (
-    <div className="container mx-auto py-12">
+    <div className="container px-[20px] mx-auto py-12">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-3/4">
           <Link
