@@ -1,10 +1,10 @@
 module.exports = {
   siteUrl: 'pakindiawar.com',
   generateIndexSitemap: false,
-  exclude: ['/server-sitemap.xml'],
+  exclude: ['/server-news-sitemap.xml'],
   robotsTxtOptions: {
     additionalSitemaps: [
-      `pakindiawar.com/server-sitemap.xml`,
+      `pakindiawar.com/server-news-sitemap.xml`,
     ],
   },
 }
