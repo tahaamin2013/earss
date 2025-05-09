@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     "Explosion Noor Khan Air Base, missiles attack Rawalpindi, people died sleeping, Rawalpindi Lahore blast news, Pakistan India war 2025",
   openGraph: {
     title: "Explosion Near Noor Khan Air Base - Full Update",
+    images: [
+        {
+            url: "https://www.pakindiawar.com/blast plane.png",
+            width: 1200,
+            height: 630,
+            alt: "Explosion Near Noor Khan Air Base",
+        },
+    ],
     description:
       "Big explosions and missile attacks happened near Noor Khan Air Base. People were sleeping when it happened. Many got hurt and some died. Full report here.",
     type: "article",
