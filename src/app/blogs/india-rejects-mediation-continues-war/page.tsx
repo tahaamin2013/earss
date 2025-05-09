@@ -75,7 +75,7 @@ const BlogPage = () => {
         "introduction",
         "why-the-war-started",
         "international-pressure",
-        "indias-response",
+        "indias-response",  
         "global-concerns",
         "looking-ahead",
         "the-bigger-picture",
