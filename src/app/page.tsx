@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "India Pakistan War 2025 – Latest News on Pakistan vs India Conflict",
+  title: "India Pakistan War 2025 – Latest News on Pakistan vs India ",
   alternates: {
     canonical: "https://www.pakindiawar.com",
   },
@@ -79,8 +79,8 @@ export default function Home() {
         <h1 className="font-bold text-3xl">
           India Pakistan War 2025 – Latest News on Pakistan vs India Conflict
         </h1>
-        <p className="text-sm w-fit md:w-[1000px] mx-auto">
-          Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan.
+              <p className="text-sm w-fit md:w-[1000px] mx-auto">Stay updated on the Pak India War with the latest news on the Pakistan vs India War. Our website brings you real-time updates about the India Pakistan War 2025. Get the latest India Pakistan news and details about the War of India and Pakistan. Learn about the India and Pakistan War, PK vs India War events, and the movements of the Indian Army and Pakistan Army. Stay informed about the India Pakistan map, PK vs India War 2025, and the India-Pakistan War. Our site is your trusted source for all India Pakistan War News.
+
         </p>
       </div>
 

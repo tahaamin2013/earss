@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "Operation Sindoor: India and Pakistan War 2025 Explained Simply",
+  title: "Operation Sindoor: India and Pakistan War 2025",
   alternates: {
     canonical: "https://www.pakindiawar.com/blogs/operation-sindoor-war-2025-explained",
   },
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   keywords:
     "Operation Sindoor, India Pakistan War 2025, India Pakistan conflict, military action, Kashmir conflict, India Pakistan military strikes, Pakistan India news",
   openGraph: {
-    title: "Operation Sindoor: India and Pakistan War 2025 Explained Simply",
+    title: "Operation Sindoor: India and Pakistan War 2025",
     description:
       "Learn about the India-Pakistan War 2025 and Operation Sindoor in simple words. Understand what happened, why it happened, and what it means for both countries.",
     type: "article",

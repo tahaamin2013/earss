@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan",
+  title: "India Rejects Iran and Saudi Mediation, Attacks on Pakistan",
   description:
     "In the ongoing Pakistan vs India war, India has rejected Iran and Saudi Arabia's efforts to mediate, continuing its strikes on Pakistan. ",
   alternates: {

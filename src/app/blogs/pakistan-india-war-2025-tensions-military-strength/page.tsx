@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
+  title: "Pak India War 2025: the Tensions and Strength of Both Countries",
   description:
     "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025.",
   alternates: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   keywords:
     "Pakistan India War 2025, India Pakistan conflict, military strength, India vs Pakistan, nuclear capabilities, Operation Sindoor, India Pakistan war, India military, Pakistan military, economic power, global politics",
   openGraph: {
-    title: "Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
+    title: "Pak India War 2025: the Tensions and Strength of Both Countries",
     description:
       "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025.",
     type: "article",
