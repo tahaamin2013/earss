@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   keywords: ['PakIndiaWar', 'About Us', 'Pakistan India conflict', 'peace efforts', 'family separation'],
 
   alternates: {
-  canonical: 'https://pakindiawar.com/about-us',
+  canonical: 'https://www.pakindiawar.com/about',
 },
 };
 const AboutUs = () => {

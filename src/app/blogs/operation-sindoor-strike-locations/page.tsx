@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "Operation Sindoor: Strike Locations in Pakistan | India-Pakistan War 2025",
+  title: "Operation Sindoor: Strike Locations in Pakistan",
   description:
     "Discover the key strike locations of Operation Sindoor by India in Pakistan during the 2025 war. Learn about the camps hit and their importance.",
   alternates: {
@@ -59,7 +59,7 @@ const BlogPage = () => {
 
   return (
     <Blog
-      title="Operation Sindoor: Strike Locations in Pakistan | India-Pakistan War 2025"
+      title="Operation Sindoor: Strike Locations in Pakistan.."
       description="Discover the key strike locations of Operation Sindoor by India in Pakistan during the 2025 war. Learn about the camps hit and their importance."
       tableOfContents={[
         "operation-sindoor-strike-locations",

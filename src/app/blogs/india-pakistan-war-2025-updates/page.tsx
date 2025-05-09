@@ -5,7 +5,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "India-Pakistan War 2025 - Latest Updates and Tensions",
   description:
-    "Discover the latest developments in the India-Pakistan war 2025. Read about the attack claims, India and Pakistan news, and how the Indian Army and Pakistan Army are involved in the conflict.",
+    "Discover the latest developments in the India-Pakistan war 2025. Read about the attack claims, India and Pakistan news,",
     alternates: {
       canonical: "https://www.pakindiawar.com/blogs/india-pakistan-war-2025-updates",
     },

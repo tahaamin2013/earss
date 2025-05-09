@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Big News: Drone Attack in Rawalpindi – India Pakistan War 2025?",
+  title: "Big News: Drone Attack in Rawalpindi",
   alternates: {
     canonical: "https://www.pakindiawar.com/blogs/drone-attack-rawalpindi-war-2025",
   },
@@ -38,7 +38,7 @@ export default function BlogPageComponent() {
 
   return (
     <Blog
-      title="🇮🇳🇵🇰 Big Drone Attack in Rawalpindi – Is This the Start of India Pakistan War 2025?"
+      title="Big Drone Attack in Rawalpindi – Is This the Start of India Pak War 2025?"
       description="Read about the recent drone attack in Rawalpindi and its potential connection to the ongoing India-Pakistan war in 2025."
       tableOfContents={[
         "drone-attack-in-rawalpindi",

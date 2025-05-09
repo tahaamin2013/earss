@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Read the Terms and Conditions for using PakIndiaWar.com. Learn about the rules, responsibilities, and policies regarding the use of the website.',
   keywords: ['PakIndiaWar', 'Terms and Conditions', 'website rules', 'Pakistan-India conflict', 'website policies'],
   alternates: {
-  canonical: 'https://pakindiawar.com/terms-and-conditions',
+  canonical: 'https://www.pakindiawar.com/terms-and-conditions',
   }
 };
 const TermsAndConditions = () => {

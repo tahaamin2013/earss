@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025.",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/pakistan-india-war-2025-understanding-tensions",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-india-war-2025-tensions-military-strength",
   },
   keywords:
     "Pakistan India War 2025, India Pakistan conflict, military strength, India vs Pakistan, nuclear capabilities, Operation Sindoor, India Pakistan war, India military, Pakistan military, economic power, global politics",

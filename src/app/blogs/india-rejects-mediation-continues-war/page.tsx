@@ -3,9 +3,9 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan - India Pakistan War 2025",
+  title: "India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan",
   description:
-    "In the ongoing Pakistan vs India war, India has rejected Iran and Saudi Arabia's efforts to mediate, continuing its strikes on Pakistan. The War of India and Pakistan 2025 is escalating with dangerous consequences.",
+    "In the ongoing Pakistan vs India war, India has rejected Iran and Saudi Arabia's efforts to mediate, continuing its strikes on Pakistan. ",
   alternates: {
     canonical: "https://www.pakindiawar.com/blogs/india-rejects-mediation-continues-war",
   },
@@ -68,7 +68,7 @@ const BlogPage = () => {
 
   return (
     <Blog
-      title="India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan - India Pakistan War 2025"
+      title="India Rejects Iran and Saudi Mediation, India Pakistan War 2025"
       description="In the ongoing Pakistan vs India war, India has rejected Iran and Saudi Arabia's efforts to mediate, continuing its strikes on Pakistan. The War of India and Pakistan 2025 is escalating with dangerous consequences."
       tableOfContents={[
         "india-rejects-iran-saudi-mediation",

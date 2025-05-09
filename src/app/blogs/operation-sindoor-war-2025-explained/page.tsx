@@ -5,7 +5,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Operation Sindoor: India and Pakistan War 2025 Explained Simply",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/operation-sindoor-india-pakistan-war-2025",
+    canonical: "https://www.pakindiawar.com/blogs/operation-sindoor-war-2025-explained",
   },
   description:
     "Learn about the India-Pakistan War 2025 and Operation Sindoor in simple words. Understand what happened, why it happened, and what it means for both countries.",
