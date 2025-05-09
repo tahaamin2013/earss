@@ -1,4 +1,16 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Disclaimer - PakIndiaWar.com',
+  description: 'Read the Disclaimer of PakIndiaWar.com to understand the terms of use, limitations, and external links provided on the site.',
+  keywords: ['PakIndiaWar', 'Disclaimer', 'terms of use', 'information accuracy', 'external links'],
+  alternates: {
+    canonical: 'https://pakindiawar.com/disclaimer',
+  },
+
+
+};
 
 const Disclaimer = () => {
   return (

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Discover the key strike locations of Operation Sindoor by India in Pakistan during the 2025 war. Learn about the camps hit and their importance.",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/operation-sindoor-strike-locations-pakistan",
+    canonical: "https://www.pakindiawar.com/blogs/operation-sindoor-strike-locations",
   },
   keywords:
     "Operation Sindoor, India Pakistan War 2025, India Pakistan conflict, India strikes Pakistan, terrorist camps Pakistan, India strikes terror groups, India military action",

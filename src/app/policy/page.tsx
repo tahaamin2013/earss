@@ -1,5 +1,14 @@
 import React from 'react';
+import { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'Privacy Policy - PakIndiaWar.com',
+  description: 'Read the Privacy Policy o f PakIndiaWar.com to understand how we protect your personal information and your rights regarding the use of our website.',
+  keywords: ['PakIndiaWar', 'Privacy Policy', 'personal information', 'cookies', 'third-party services'],
+  alternates: {
+  canonical: 'https://pakindiawar.com/privacy-policy',
+  },
+};
 const PrivacyPolicy = () => {
   return (
     <div className="max-w-4xl mt-[100px] mx-auto p-6 text-gray-800 space-y-6">

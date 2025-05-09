@@ -1,5 +1,14 @@
 import React from 'react';
+import { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'Terms and Conditions - PakIndiaWar.com',
+  description: 'Read the Terms and Conditions for using PakIndiaWar.com. Learn about the rules, responsibilities, and policies regarding the use of the website.',
+  keywords: ['PakIndiaWar', 'Terms and Conditions', 'website rules', 'Pakistan-India conflict', 'website policies'],
+  alternates: {
+  canonical: 'https://pakindiawar.com/terms-and-conditions',
+  }
+};
 const TermsAndConditions = () => {
   return (
     <div className="max-w-4xl mt-[100px] mx-auto p-6 text-gray-800 space-y-6">

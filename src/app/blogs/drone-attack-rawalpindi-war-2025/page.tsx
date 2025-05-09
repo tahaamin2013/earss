@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Big News: Drone Attack in Rawalpindi – India Pakistan War 2025?",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/drone-attack-in-rawalpindi-2025",
+    canonical: "https://www.pakindiawar.com/blogs/drone-attack-rawalpindi-war-2025",
   },
   description:
     "Two drones crash in Rawalpindi. Is this part of the war of India and Pakistan 2025? Read the full update about India-Pakistan war news and drone attacks.",

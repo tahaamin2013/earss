@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "In the ongoing Pakistan vs India war, India has rejected Iran and Saudi Arabia's efforts to mediate, continuing its strikes on Pakistan. The War of India and Pakistan 2025 is escalating with dangerous consequences.",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/india-rejects-iran-saudi-mediation-strikes-pakistan",
+    canonical: "https://www.pakindiawar.com/blogs/india-rejects-mediation-continues-war",
   },
   keywords:
     "India Pakistan War 2025, India rejects mediation, Iran Saudi Arabia mediation, India strikes Pakistan, India Pakistan conflict, Operation Sindoor, Pakistan India war news, India Pakistan escalation",

@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: "India-Pakistan War 2025 - Latest Updates and Tensions",
   description:
     "Discover the latest developments in the India-Pakistan war 2025. Read about the attack claims, India and Pakistan news, and how the Indian Army and Pakistan Army are involved in the conflict.",
-  alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/india-pakistan-war-2025-latest-updates-tensions",
-  },
+    alternates: {
+      canonical: "https://www.pakindiawar.com/blogs/india-pakistan-war-2025-updates",
+    },
   keywords:
     "India Pakistan War 2025, India vs Pakistan, India Pakistan conflict, India Army, Pakistan Army, Kashmir blackout, drone attacks, India missile strikes, India Pakistan news, India vs Pakistan latest updates",
   openGraph: {
