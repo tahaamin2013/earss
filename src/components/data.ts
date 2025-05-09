@@ -69,7 +69,7 @@ export const blogPosts = [
   
   {
     id: 1,
-    title: "🇵🇰 Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries",
+    title: "🇵🇰 Pakistan India War 2025: the Tensions and Strength of Both Countries",
     excerpt: "A simple look at why India and Pakistan are fighting in 2025, and how strong their armies are.",
     slug: "pakistan-india-war-2025-tensions-military-strength",
     date: "May 9, 2025",
@@ -137,7 +137,7 @@ export const blogPosts = [
         excerpt: "India suspends IPL as it prepares for a big strike on Pakistan",
         slug: "india-pakistan-war-update-explosions-near-noor-khan-air-base",
         date: "May 10, 2025",
-        image: "/blast plane.png",
+        image: "/blastplan.jpeg",
       }
 
   

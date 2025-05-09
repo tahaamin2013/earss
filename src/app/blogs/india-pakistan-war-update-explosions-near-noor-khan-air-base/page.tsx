@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Big explosions and missile attacks happened near Noor Khan Air Base. People were sleeping when it happened. Many got hurt and some died. Full report here.",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/explosion-near-noor-khan-air-base",
+    canonical: "https://www.pakindiawar.com/blogs/india-pakistan-war-update-explosions-near-noor-khan-air-base",
   },
   keywords:
     "Explosion Noor Khan Air Base, missiles attack Rawalpindi, people died sleeping, Rawalpindi Lahore blast news, Pakistan India war 2025",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "Explosion Near Noor Khan Air Base - Full Update",
     images: [
         {
-            url: "https://www.pakindiawar.com/blast plane.png",
+            url: "https://www.pakindiawar.com/blastplan.jpeg",
             width: 1200,
             height: 630,
             alt: "Explosion Near Noor Khan Air Base",
@@ -106,7 +106,7 @@ const BlogPage = () => {
       ]}
       publishDate="May 9, 2025"
       readTime="5 min read"
-      photo="/blast plane.png"
+      photo="/blastplan.jpeg"
       content={blogContent}
     />
   );

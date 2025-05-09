@@ -3,9 +3,9 @@ import { Metadata } from "next";
 
 // Set up metadata
 export const metadata: Metadata = {
-  title: "Pak India War 2025: the Tensions and Strength of Both Countries",
+  title: "Pak India War 2025: Tensions and Strength of Both Countries",
   description:
-    "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025.",
+    "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength.",
   alternates: {
     canonical: "https://www.pakindiawar.com/blogs/pakistan-india-war-2025-tensions-military-strength",
   },
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Pak India War 2025: the Tensions and Strength of Both Countries",
     description:
-      "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025.",
+      "Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength.",
     type: "article",
     publishedTime: "2025-05-09T00:00:00Z",
     authors: ["Taha Amin"],
@@ -80,7 +80,7 @@ const BlogPage = () => {
 
   return (
     <Blog
-      title="Pakistan India War 2025: Understanding the Tensions and Military Strength of Both Countries"
+      title="Pak India War 2025 Tensions and Strength of Both Countries"
       description="Learn about the ongoing tensions between Pakistan and India, including the Pak India war, military comparisons, economic strength, and the recent war of India and Pakistan developments in 2025."
       tableOfContents={[
         "pakistan-india-war-2025",

@@ -49,7 +49,7 @@ export default function BlogPageComponent() {
   return (
     <>
       <Blog
-        title="India Stops IPL – Big War With Pakistan Starting Soon"
+        title="India Stops IPL – Big War With Pakistan Starting"
         description="India suspends IPL as it prepares for a big strike on Pakistan. Missiles, drones, and attacks are coming. Read in very simple English."
         tableOfContents={[
           "india-suspends-ipl",

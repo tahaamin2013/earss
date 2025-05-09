@@ -108,7 +108,7 @@ const Blog: React.FC<BlogProps> = ({
 
       {/* Other Blogs Section */}
       <div className="mt-20">
-        <h2 className="text-2xl font-bold mb-6 text-green-800">Other Blogs</h2>
+        <span className="text-2xl font-bold mb-6 text-green-800">Other Blogs</span>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filteredBlogPosts.map((post) => (
             <Link key={post.id} href={`/blogs/${post.slug}`}>

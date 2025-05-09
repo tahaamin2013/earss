@@ -40,7 +40,7 @@ const BlogPage = () => {
 
   return (
     <Blog
-      title="India-Pakistan War 2025 - Latest Updates and Tensions"
+      title="India-Pakistan War 2025 - Latest Updates"
       description="Discover the latest developments in the India-Pakistan war 2025. Read about the attack claims, India and Pakistan news, and how the Indian Army and Pakistan Army are involved in the conflict."
       tableOfContents={[
         "india-pakistan-war-2025",

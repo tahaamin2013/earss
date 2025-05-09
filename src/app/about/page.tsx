@@ -2,8 +2,8 @@ import React from 'react';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - PakIndiaWar.com',
-  description: 'Learn about PakIndiaWar.com’s mission to share stories and insights into the ongoing and past conflicts between Pakistan and India, promoting peace and understanding.',
+  title: 'About Us - PakIndiaWar.com | Pak VS India war 2025',
+  description: 'Learn about PakIndiaWar.com’s mission to share stories and insights into the ongoing and past conflicts between Pakistan and India.',
   keywords: ['PakIndiaWar', 'About Us', 'Pakistan India conflict', 'peace efforts', 'family separation'],
 
   alternates: {

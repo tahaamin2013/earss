@@ -3,41 +3,49 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - PakIndiaWar.com',
-  description: 'Read the Privacy Policy o f PakIndiaWar.com to understand how we protect your personal information and your rights regarding the use of our website.',
-  keywords: ['PakIndiaWar', 'Privacy Policy', 'personal information', 'cookies', 'third-party services'],
+  description: 'Very easy Privacy Policy of PakIndiaWar.com. Learn how we protect your info and keep you safe.',
+  keywords: ['PakIndiaWar', 'Privacy Policy', 'simple words', 'cookies', 'safety'],
   alternates: {
-  canonical: 'https://www.pakindiawar.com/policy',
+    canonical: 'https://www.pakindiawar.com/policy',
   },
 };
+
 const PrivacyPolicy = () => {
   return (
     <div className="max-w-4xl mt-[100px] mx-auto p-6 text-gray-800 space-y-6">
       <h1 className="text-3xl font-bold text-blue-600">Privacy Policy</h1>
+
       <p>
-        At <strong>PakIndiaWar.com</strong>, we value your privacy. We do not collect any personally identifiable information unless you choose to provide it to us directly, such as by contacting us or subscribing to our newsletter.
+        We care about your privacy on <strong>PakIndiaWar.com</strong>. We do not ask for your personal info like your name or email, unless you send it to us yourself.
       </p>
+
       <p>
-        We do not share, sell, or distribute any personal information. Your privacy is important to us, and we take all necessary steps to protect your personal data.
+        We never sell or share your info. We try our best to keep your data safe.
       </p>
+
       <h2 className="text-2xl font-semibold mt-6">Cookies</h2>
       <p>
-        Our website may use cookies to enhance the user experience. Cookies are small files stored on your computer that allow us to analyze how visitors use our site. You can choose to disable cookies through your browser settings, but this may affect your ability to use some features of the site.
+        Sometimes our site uses cookies. Cookies are small files that help us understand how you use the site. You can turn off cookies in your browser if you don’t want them, but some parts of the site might not work right.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Third-Party Services</h2>
+
+      <h2 className="text-2xl font-semibold mt-6">Other Tools We Use</h2>
       <p>
-        <strong>PakIndiaWar.com</strong> may use third-party services such as Google Analytics to analyze user behavior and improve our website. These third parties may collect anonymous data, but they will not collect personally identifiable information.
+        We use tools like Google Analytics. These tools tell us how many people visit and what they do on the site. These tools do not collect your name or email.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">External Links</h2>
+
+      <h2 className="text-2xl font-semibold mt-6">Other Websites</h2>
       <p>
-        Our website may contain links to other websites. We are not responsible for the privacy practices or content of these external sites. We encourage you to review the privacy policies of any external sites before providing any personal information.
+        Our site may have links to other websites. We are not in control of those websites. Please read their privacy rules before sharing anything there.
       </p>
-      <h2 className="text-2xl font-semibold mt-6">Your Consent</h2>
+
+      <h2 className="text-2xl font-semibold mt-6">You Agree</h2>
       <p>
-        By using <strong>PakIndiaWar.com</strong>, you consent to our privacy policy and the collection and use of information as described in this policy.
+        When you use <strong>PakIndiaWar.com</strong>, you agree to follow this privacy policy.
       </p>
+
       <h2 className="text-2xl font-semibold mt-6">Contact Us</h2>
       <p>
-        If you have any questions or concerns about our privacy policy, please contact us at contact@pakindiawar.com.
+        If you have any questions, please email us at <strong>contact@pakindiawar.com</strong>. We are happy to help.
       </p>
     </div>
   );

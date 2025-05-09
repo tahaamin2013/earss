@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 const BlogPage = () => {
   const blogContent = `
-    <h2 id="india-rejects-iran-saudi-mediation" style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">🇮🇳 India Rejects Iran and Saudi Mediation, Continues Attacks on Pakistan</h2>
+    <h2 id="india-rejects-iran-saudi-mediation" style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">India Rejects Iran and Saudi Mediation, Attacks on Pak</h2>
     <br />
     
     <h3 id="introduction" style="font-size: 1.25rem; font-weight: bold;">Introduction: The Ongoing War of India and Pakistan</h3>
