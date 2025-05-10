@@ -7,8 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { blogPosts } from "./data";
-
-
+import Head from "next/head";
 
 interface BlogProps {
   title: string;
@@ -22,6 +21,7 @@ interface BlogProps {
 
 const Blog: React.FC<BlogProps> = ({
   title,
+  description,
   tableOfContents,
   publishDate,
   readTime,
@@ -29,14 +29,45 @@ const Blog: React.FC<BlogProps> = ({
   photo,
 }) => {
   const pathname = usePathname();
-  const currentSlug = pathname.split("/").pop(); // Extract the slug from the path
+  const currentSlug = pathname.split("/").pop();
 
   const filteredBlogPosts = blogPosts.filter(
     (post) => post.slug !== currentSlug
   );
 
+  const schemaMarkup = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description: description,
+    image: photo,
+    author: {
+      "@type": "Person",
+      name: "Admin",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "PakIndiaWar",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://pakindiawar.com/favicon.ico",
+      },
+    },
+    datePublished: publishDate,
+    articleBody: content.replace(/<[^>]+>/g, "").slice(0, 500),
+  };
+
   return (
     <div className="container px-[20px] mx-auto py-12">
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaMarkup) }}
+        />
+      </Head>
+
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-3/4">
           <Link
