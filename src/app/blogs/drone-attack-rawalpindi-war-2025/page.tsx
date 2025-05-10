@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default function BlogPageComponent() {
   const blogContent = `
-    <h2 style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">Big Drone Attack in Rawalpindi – Is This the Start of India Pak War 2025?</h2>
+    <h2 style="font-size: 1.5rem; font-weight: bold; margin-top: 2rem;">Big Drone Attack in Rawalpindi – Is This the Start of Pak India War?</h2>
     <p style="font-size: 1rem; line-height: 1.6;">Today, we got very big news from Rawalpindi, Pakistan. Two drones crashed in different areas. One drone fell near Sadar Romi Road. The second drone crashed in Double Road Food Street. Police and the Pakistan Army went to both places very fast.</p>
   <br/>
     <p style="font-size: 1rem; line-height: 1.6;">People in Rawalpindi were very scared. The area was closed, and no one was allowed to go near the drone. Police and army teams came quickly. They started to check everything about the drones. One drone hit a tree and then fell into a shop. The shopkeeper got hurt and was taken to the Benazir Bhutto hospital.</p>
