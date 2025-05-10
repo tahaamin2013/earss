@@ -6,7 +6,7 @@ export const metadata: Metadata = {
     "India-Pakistan Ceasefire Broken: Hyderabad Airbase Attacked, Trump Reacts",
   alternates: {
     canonical:
-      "https://www.pakindiawar.com/blogs/India-pakistan-ceasefire-broken-hyderabad-airbase-attacked-trump-reacts",
+      "https://www.pakindiawar.com/blogs/india-pakistan-ceasefire-broken-hyderabad-airbase-attacked-trump-reacts",
   },
   description:
     "India and Pakistan announced a U.S.-mediated ceasefire. Just 20 minutes later, an airstrike hit Pakistan’s Hyderabad Airbase, killing Officer Usman Yousuf. Trump congratulated both nations before the attack.",
