@@ -205,5 +205,13 @@ export const blogPosts = [
   slug: "India-pakistan-ceasefire-broken-hyderabad-airbase-attacked-trump-reacts",
   date: "May 10, 2025",
   image: "/Donald J Tump post.png",
+},
+{
+  id: 6,
+  title: "India Bombs Bahawalpur After Ceasefire, Pakistan Warns of Response",
+  excerpt: "Hours after the Hyderabad Airbase attack.",
+  slug: "india-bomgs-bahawalpur-after-ceasefire-pakistan-warns-of-response",
+  date: "May 10, 2025",
+  image: "/bomb blasting.jpg",
 }
 ];

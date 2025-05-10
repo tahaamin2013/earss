@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan Hits 36 Places in India – Big War Updates 2025",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/pakistan-hits-36-places-in-india",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-hits-36-places-in-india-big-war-updates-2025",
   },
   description:
     "Pakistan has attacked 36 places in India under Operation Bunyan ul Marsoos. India’s power grid is 70% down. Airbases and military sites were hit.",

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Washington Post Confirms Crash of India’s Second French Jet",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/india-second-french-jet-crash",
+    canonical: "https://www.pakindiawar.com/blogs/washington-post-confirms-crash-of-india-second-french-jet",
   },
   description:
     "The Washington Post confirms that India’s second French-made Rafale jet has crashed during the 2025 war, raising serious concerns about India's air power.",

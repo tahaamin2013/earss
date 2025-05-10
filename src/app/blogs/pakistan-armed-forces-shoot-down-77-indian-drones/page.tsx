@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan Armed Forces Shoot Down 77 Indian Drones – Official Report",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/pakistan-shoots-down-77-indian-drones",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-armed-forces-shoot-down-77-indian-drones",
   },
   description:
     "Pakistan's armed forces have shot down 77 Indian drones during the 2025 war. The drones were used for spying and attacks, officials say.",

@@ -398,4 +398,17 @@
       <news:title>India-Pakistan Ceasefire Broken: Hyderabad Airbase Attacked, Trump Reacts</news:title>
     </news:news>
   </url>
+
+
+      <url>
+    <loc>https://www.pakindiawar.com/blogs/india-bomgs-bahawalpur-after-ceasefire-pakistan-warns-of-responses</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>India-Pakistan Ceasefire Broken: Hyderabad Airbase Attacked, Trump Reacts</news:title>
+    </news:news>
+  </url>
 </urlset>

@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan Destroys India’s Udhampur Airbase in Missile Attack",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/udhampur-airbase-destroyed",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-destroys-india-udhampur-airbase-in-missile-attack",
   },
   description:
     "Pakistan has destroyed India’s Udhampur Airbase in a missile attack as part of its military response. Read full details and watch the video below.",

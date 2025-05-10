@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Pakistan has launched a military operation called Bunyan-um-Marsus, alongside missile launches, to strengthen its defense against terrorism and external threats.",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/pakistan-launches-operation-bunyan-um-marsus",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-launches-operation-bunyan-um-marsus-and-missiles-against-india",
   },
   keywords:
     "Pakistan Operation Bunyan-um-Marsus, Pakistan missile launches, Pakistan military operation, Pakistan defense, Pakistan terrorism, Pakistan security, Operation Bunyan-um-Marsus, Pakistan India conflict",

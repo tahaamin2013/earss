@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Pakistan’s JF-17 vs India’s Rafale: Jet Cost and Power Compared",
   alternates: {
-    canonical: "https://www.pakindiawar.com/blogs/jf-17-vs-rafale-comparison",
+    canonical: "https://www.pakindiawar.com/blogs/pakistan-jf17-vs-india-rafale-jet-cost-and-power",
   },
   description:
     "India’s Rafale jet costs $240 million while Pakistan’s JF-17 costs only $30 million. But which is more powerful? A clear and neutral comparison.",
