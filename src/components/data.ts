@@ -138,6 +138,16 @@ export const blogPosts = [
         slug: "india-pakistan-war-update-explosions-near-noor-khan-air-base",
         date: "May 10, 2025",
         image: "/blastplan.jpeg",
+      },
+
+      
+            {
+        id: 6,
+        title: "Pakistan Launches Operation Bunyan-um-Marsus and Missiles Against India",
+        excerpt: "Pakistan has launched a military operation called Bunyan-um-Marsus, alongside missile launches, to strengthen its defense against terrorism and external threats.",
+        slug: "pakistan-launches-operation-bunyan-um-marsus-and-missiles-against-india",
+        date: "May 10, 2025",
+        image: "/rocket.jpg",
       }
 
   
