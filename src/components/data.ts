@@ -197,5 +197,13 @@ export const blogPosts = [
   slug: "pakistan-jf17-vs-india-rafale-jet-cost-and-power",
   date: "May 10, 2025",
   image: "/rapter.webp",
+},
+{
+  id: 6,
+  title: "India-Pakistan Ceasefire Broken: Hyderabad Airbase Attacked, Trump Reacts",
+  excerpt: "The ceasefire between India and Pakistan has been broken, with the Hyderabad Airbase being attacked. Trump has reacted to the situation.",
+  slug: "India-pakistan-ceasefire-broken-hyderabad-airbase-attacked-trump-reacts",
+  date: "May 10, 2025",
+  image: "/Donald J Tump post.png",
 }
 ];
