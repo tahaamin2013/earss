@@ -2,7 +2,7 @@ import Blog from "@/components/blog";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Explosion Near Noor Khan Air Base - Full Update",
+  title: "Explosion Near Noor Khan Air Base - Full report",
   description:
     "Big explosions and missile attacks happened near Noor Khan Air Base. People were sleeping when it happened. Many got hurt and some died. Full report here.",
   alternates: {
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords:
     "Explosion Noor Khan Air Base, missiles attack Rawalpindi, people died sleeping, Rawalpindi Lahore blast news, Pakistan India war 2025",
   openGraph: {
-    title: "Explosion Near Noor Khan Air Base - Full Update",
+    title: "Explosion Near Noor Khan Air Base - Full report",
     images: [
         {
             url: "https://www.pakindiawar.com/blastplan.jpeg",

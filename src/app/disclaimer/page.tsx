@@ -16,30 +16,40 @@ const Disclaimer = () => {
       <h1 className="text-3xl font-bold text-yellow-600">Disclaimer</h1>
 
       <p>
-        The stories on <strong>PakIndiaWar.com</strong> are only for learning and reading. We try our best to make them true, but sometimes small mistakes can happen.
+        Welcome to <strong>PakIndiaWar.com</strong>. This website is for learning and reading only. We share news, stories, and opinions in very easy words. But we cannot promise that everything will always be perfect.
       </p>
 
       <p>
-        If you use this website and something goes wrong, we are not responsible. Please check other places too if you are making big decisions.
+        Sometimes, there can be small mistakes. We try to fix them fast. But please do not use our website for very big or serious decisions. Always check other trusted sources too.
       </p>
 
       <p>
-        The writers on this site share their own thoughts and feelings. We do not speak for any country or leader. We try to show both sides of the story.
+        The stories here are written by writers who share their own thoughts. We do not speak for any government, army, or leader. We try to show both sides of the story – Pakistan and India – in a fair and kind way.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6">No Promises</h2>
+      <p>
+        We do not promise that everything will always be correct, safe, or always online. If something goes wrong or you feel upset, we are not responsible. Please use this website kindly and carefully.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6">Other Websites</h2>
       <p>
-        Sometimes we give links to other websites. These are just to help you. We do not control those websites, so please be careful when you visit them.
+        Sometimes we give links to other websites to help you learn more. But we do not control those websites. So please read their rules and be careful before clicking or sharing anything there.
+      </p>
+
+      <h2 className="text-2xl font-semibold mt-6">Be Respectful</h2>
+      <p>
+        When you use <strong>PakIndiaWar.com</strong>, please do not post anything rude, hateful, or false in the comments. Let’s keep this place safe and friendly for everyone.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6">Using This Site</h2>
       <p>
-        If you use this website, you agree that <strong>PakIndiaWar.com</strong> is not to blame for small mistakes. Please be kind and do not write bad or hurtful things in comments.
+        By using this site, you agree that <strong>PakIndiaWar.com</strong> is not to blame for mistakes or wrong information. We are here to help, not to harm.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6">Contact Us</h2>
       <p>
-        If you have questions, send us an email at <strong>contact@pakindiawar.com</strong>. We are happy to hear from you!
+        If you have questions or want to talk to us, send an email to <strong>contact@pakindiawar.com</strong>. We are always happy to help.
       </p>
     </div>
   );
