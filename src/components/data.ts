@@ -213,5 +213,13 @@ export const blogPosts = [
   slug: "india-bomgs-bahawalpur-after-ceasefire-pakistan-warns-of-response",
   date: "May 10, 2025",
   image: "/bomb blasting.jpg",
+},
+{
+  id: 6,
+  title: "BJP Website Hacked by Pakistan Cyber Group Amid Conflict",
+  excerpt: "The official website of the BJP has been hacked by a Pakistani cyber group, raising concerns over cybersecurity.",
+  slug: "bjp-website-hacked-by-pakistan-cyber-group-amid-conflict",
+  date: "May 10, 2025",
+  image: "/bjp-website-hacked.jpg",
 }
 ];
