@@ -282,9 +282,23 @@
     <news:title>Pak India War Homepage</news:title>
   </news:news>
 </url>
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <url>
     <loc>https://www.pakindiawar.com/blogs/india-pakistan-war-update-explosions-near-noor-khan-air-base</loc>
     <news:news>
@@ -373,7 +387,4 @@
       <news:title>Pakistan JF-17 vs India Rafale Jet – Cost and Power Comparison</news:title>
     </news:news>
   </url>
-</urlset>
-
-
 </urlset>
