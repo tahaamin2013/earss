@@ -1,5 +1,6 @@
 import Blog from "@/components/blog";
 import { Metadata } from "next";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "BJP Website Hacked by Pakistan Cyber Group Amid Conflict",
@@ -45,21 +46,54 @@ export default function BlogPageComponent() {
   `;
 
   return (
-    <Blog
-      title="BREAKING: Official BJP Website Hacked by Pakistani Group, Say Users"
-      description="India’s ruling BJP website has been hacked, showing pro-Pakistan messages. No official statement yet. Cyber warfare escalates during rising India-Pakistan tensions."
-      tableOfContents={[
-        "cyber-war-heats-up",
-        "what-happened",
-        "no-official-response",
-        "a-new-front-in-the-conflict",
-        "public-reaction",
-        "whats-next",
-      ]}
-      publishDate="May 10, 2025"
-      readTime="5 min read"
-      photo="/bjp-website-hacked.jpg"
-      content={blogContent}
-    />
+    <>
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "NewsArticle",
+              "headline": "BJP Website Hacked by Pakistan Cyber Group Amid Conflict",
+              "image": ["https://www.pakindiawar.com/bjp-website-hacked.jpg"],
+              "datePublished": "2025-05-10T07:30:00Z",
+              "dateModified": "2025-05-10T07:30:00Z",
+              "author": [{ "@type": "Person", "name": "Taha Amin" }],
+              "publisher": {
+                "@type": "Organization",
+                "name": "PakIndiaWar",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.pakindiawar.com/logo.png",
+                },
+              },
+              "description":
+                "India’s ruling BJP website has been hacked, showing pro-Pakistan messages. No official statement yet. Cyber warfare escalates during rising India-Pakistan tensions.",
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id":
+                  "https://www.pakindiawar.com/blogs/bjp-website-hacked-by-pakistan-cyber-group-amid-conflict",
+              },
+            }),
+          }}
+        />
+      </Head>
+      <Blog
+        title="BREAKING: Official BJP Website Hacked by Pakistani Group, Say Users"
+        description="India’s ruling BJP website has been hacked, showing pro-Pakistan messages. No official statement yet. Cyber warfare escalates during rising India-Pakistan tensions."
+        tableOfContents={[
+          "cyber-war-heats-up",
+          "what-happened",
+          "no-official-response",
+          "a-new-front-in-the-conflict",
+          "public-reaction",
+          "whats-next",
+        ]}
+        publishDate="May 10, 2025"
+        readTime="5 min read"
+        photo="/bjp-website-hacked.jpg"
+        content={blogContent}
+      />
+    </>
   );
 }
