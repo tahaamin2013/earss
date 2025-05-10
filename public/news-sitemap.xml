@@ -282,17 +282,98 @@
     <news:title>Pak India War Homepage</news:title>
   </news:news>
 </url>
-<url>
-  <loc>https://www.pakindiawar.com/blogs/india-pakistan-war-update-explosions-near-noor-khan-air-base</loc>
-  <lastmod>2025-05-10T00:00:00.000Z</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://www.pakindiawar.com/blogs/pakistan-launches-operation-bunyan-um-marsus-and-missiles-against-india</loc>
-  <lastmod>2025-05-10T00:00:00.000Z</lastmod>
-  <changefreq>daily</changefreq>
-  <priority>0.7</priority>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/india-pakistan-war-update-explosions-near-noor-khan-air-base</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>India Pakistan War Update: Explosions Near Noor Khan Air Base</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-launches-operation-bunyan-um-marsus-and-missiles-against-india</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan Launches Operation Bunyan Um Marsus and Missiles Against India</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-destroys-india-udhampur-airbase-in-missile-attack</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan Destroys India Udhampur Airbase in Missile Attack</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-hits-36-places-in-india-big-war-updates-2025</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan Hits 36 Places in India - Big War Updates 2025</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-blocks-16-indian-youtube-news-channels</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan Blocks 16 Indian YouTube News Channels</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-armed-forces-shoot-down-77-indian-drones</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan Armed Forces Shoot Down 77 Indian Drones</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/washington-post-confirms-crash-of-india-second-french-jet</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Washington Post Confirms Crash of India’s Second French Jet</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://www.pakindiawar.com/blogs/pakistan-jf17-vs-india-rafale-jet-cost-and-power</loc>
+    <news:news>
+      <news:publication>
+        <news:name>Pak India War</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2025-05-10</news:publication_date>
+      <news:title>Pakistan JF-17 vs India Rafale Jet – Cost and Power Comparison</news:title>
+    </news:news>
+  </url>
+</urlset>
+
 
 </urlset>

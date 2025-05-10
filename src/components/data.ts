@@ -148,7 +148,54 @@ export const blogPosts = [
         slug: "pakistan-launches-operation-bunyan-um-marsus-and-missiles-against-india",
         date: "May 10, 2025",
         image: "/rocket.jpg",
-      }
+      },
 
-  
+      {
+  id: 1,
+  title: "Pakistan Destroys India’s Udhampur Airbase in Missile Attack",
+  excerpt: "Pakistan has targeted and destroyed India's Udhampur Airbase in a powerful missile strike, escalating tensions further.",
+  slug: "pakistan-destroys-india-udhampur-airbase-in-missile-attack",
+  date: "May 10, 2025",
+  image: "/fauj.webp",
+},
+{
+  id: 2,
+  title: "Pakistan Hits 36 Places in India – Big War Updates 2025",
+  excerpt: "In the latest war updates, Pakistan has launched coordinated attacks on 36 locations across India.",
+  slug: "pakistan-hits-36-places-in-india-big-war-updates-2025",
+  date: "May 10, 2025",
+  image: "/operation-bunyan-ul-marsoos-key-indian-military-and-cyber-targets-hit-by-pakistan-1746853657-6674.png",
+},
+{
+  id: 3,
+  title: "Pakistan Blocks 16 Indian YouTube News Channels",
+  excerpt: "Pakistan has officially blocked 16 Indian news channels on YouTube for spreading misinformation.",
+  slug: "pakistan-blocks-16-indian-youtube-news-channels",
+  date: "May 10, 2025",
+  image: "/banned youtube.jpg",
+},
+{
+  id: 4,
+  title: "Pakistan Armed Forces Shoot Down 77 Indian Drones – Official Report",
+  excerpt: "According to a military report, Pakistan has successfully shot down 77 Indian drones near its border.",
+  slug: "pakistan-armed-forces-shoot-down-77-indian-drones",
+  date: "May 10, 2025",
+  image: "/Drones destroyed.jpg",
+},
+{
+  id: 5,
+  title: "Washington Post Confirms Crash of India’s Second French Jet",
+  excerpt: "The Washington Post has confirmed that India has lost its second French fighter jet in the ongoing conflict.",
+  slug: "washington-post-confirms-crash-of-india-second-french-jet",
+  date: "May 10, 2025",
+  image: "/rocket2.jpg",
+},
+{
+  id: 6,
+  title: "Pakistan’s JF-17 vs India’s Rafale: Jet Cost and Power Compared",
+  excerpt: "This comparison breaks down the cost and performance of Pakistan’s JF-17 and India’s Rafale fighter jets.",
+  slug: "pakistan-jf17-vs-india-rafale-jet-cost-and-power",
+  date: "May 10, 2025",
+  image: "/rapter.webp",
+}
 ];
