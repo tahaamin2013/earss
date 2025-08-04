@@ -92,6 +92,7 @@ const Footer: FC = () => {
           <Link href='/disclaimer'>Disclaimer</Link>
           <Link href='/policy'>Policy</Link>
           <Link href='/terms-and-conditions'>Terms </Link>
+          <Link href='/carrateri-speciali' target="_blank">Carrateri Speciali </Link>
         </div>
       </div>
     </footer>
