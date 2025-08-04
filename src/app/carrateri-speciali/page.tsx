@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function InstagramSimboliPage() {
   return (
-    <main className="max-w-3xl mt-[200px] mx-auto px-4 py-10 text-gray-800">
+    <main className="max-w-3xl mt-[50px] mx-auto px-4 py-10 text-gray-800">
       <h1 className="text-3xl font-bold mb-6">
         I migliori simboli da usare su Instagram per bio e post più belli
       </h1>
