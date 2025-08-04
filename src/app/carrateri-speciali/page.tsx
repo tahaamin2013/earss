@@ -46,24 +46,14 @@ export default function InstagramSimboliPage() {
           rel="dofollow"
           className="text-blue-600 underline"
         >
-          caratterispeciali10.it
+          Caratteri Speciali 10
         </Link>{' '}
         offre tanti simboli già pronti da copiare e incollare. Non serve scaricare nulla. Basta scegliere il simbolo e usarlo dove vuoi.
       </p>
 
       <p className="mb-2 font-semibold">Come usare i simboli su Instagram:</p>
       <ol className="list-decimal list-inside mb-6 space-y-1">
-        <li>
-          Vai su{' '}
-          <Link
-            href="https://www.caratterispeciali10.it"
-            target="_blank"
-            rel="dofollow"
-            className="text-blue-600 underline"
-          >
-            caratterispeciali10.it
-          </Link>
-        </li>
+   
         <li>Apri la sezione “Instagram” o “Simboli”</li>
         <li>Clicca su un simbolo</li>
         <li>Copialo e incollalo nella tua bio, post o storia</li>
@@ -79,14 +69,7 @@ export default function InstagramSimboliPage() {
 
       <p className="mb-4">
         Tutti i simboli di{' '}
-        <Link
-          href="https://www.caratterispeciali10.it"
-          target="_blank"
-          rel="dofollow"
-          className="text-blue-600 underline"
-        >
-          caratterispeciali10.it
-        </Link>{' '}
+{' '}
         funzionano su iPhone, Android e computer. Sono compatibili con l’app Instagram e visibili su tutti i dispositivi.
       </p>
 
